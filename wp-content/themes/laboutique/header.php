@@ -154,43 +154,49 @@
                 <div class="container">
                     <div class="row">
                         <div class="span8">
-                            <div class="logo">
-                                <a href="<?php echo home_url();?>" title="<?=esc_attr(theme_option('header_bar_logo_title'))?>">
-                                    <?php if (theme_option('header_bar_logo_retina') || theme_option('header_bar_logo')){?>
-                                    <img style="<?php if (theme_option('header_bar_logo_margin')){?>margin-top: <?php echo theme_option('header_bar_logo_margin')?>px;<?php } ?> <?php if (theme_option('header_bar_logo_width')){?>width: <?php echo theme_option('header_bar_logo_width')?>px;<?php } ?> " src="<?php if (theme_option('header_bar_logo_retina')){?><?php $url=theme_option('header_bar_logo_retina'); ?><?php } else {?><?php $url=theme_option('header_bar_logo')?><?php } ?><?php echo $url['url'];?>" alt="<?php echo esc_attr(theme_option('header_bar_logo_alt'))?>" />
-                                    <?php } ?>
-                                </a>
+                            <div class="number">
+                                <ul class="number_list number_list-left">
+                                    <li class="number_item">
+                                        <a href="tell:0969130700" class="number_link">096 913 07 00</a>
+                                    </li>
+                                    <li class="number_item">
+                                        <a href="tell:0630237877" class="number_link">063 023 78 77</a>
+                                    </li>
+                                </ul>
+                                <ul class="number_list number_list-right">
+                                    <li class="number_item">
+                                        <a href="tell:0977021483" class="number_link">097 702 14 83</a>
+                                    </li>
+                                    <li class="number_item">
+                                        <a href="tell:0630192969" class="number_link">063 019 29 69</a>
+                                    </li>
+                                </ul>
                             </div>
+                                <div class="<?php if (theme_option('header_bar_search_publish')){?> span8 offset2<?php } else {?>span10<?php } ?>">
+                                    <?php if (theme_option('header_bar_search_publish')){?>
+                                        <!-- Search -->
+                                        <div class="search">
+                                            <div class="qs_s">
+                                                <form method="get" action="<?php echo home_url();?>" role="search">
+                                                    <input type="text" name="s" id="query" placeholder="Пошук&hellip;" autocomplete="off" value="">
+                                                    <input type="submit" value="<?=esc_attr(__('Search',DOMAIN))?>" id="searchsubmit">
+                                                    <input type="hidden" value="product" name="post_type">
+                                                </form>
+                                                <!-- Autocomplete results -->
+                                                <div id="autocomplete-results" >
+                                                </div>
+                                                <!-- End id="autocomplete-results" -->
+                                            </div>
+                                        </div>
+                                        <!-- End class="search"-->
+                                    <?php } ?>
+                                </div>
                         </div>
 
                         <div class="span4">
                             <div class="row-fluid">
 
-                                <div class="<?php if (theme_option('header_bar_search_publish')){?> span8 offset2<?php } else {?>span10<?php } ?>">
-                                    <?php if (theme_option('header_bar_search_publish')){?>
-                                    <!-- Search -->
-                                    <div class="search">
-                                        <div class="qs_s">
 
-                                            <form method="get" action="<?php echo home_url();?>" role="search">
-                                                <input type="text" name="s" id="query" placeholder="Search&hellip;" autocomplete="off" value="">
-                                                <input type="submit" value="<?=esc_attr(__('Search',DOMAIN))?>" id="searchsubmit">
-                                                <input type="hidden" value="product" name="post_type">
-                                            </form>
-
-                                            <!-- Autocomplete results -->
-                                            <div id="autocomplete-results" >
-
-                                            </div>
-                                            <!-- End id="autocomplete-results" -->
-
-
-
-                                        </div>
-                                    </div>
-                                    <!-- End class="search"-->
-                                    <?php } ?>
-                                </div>
 
 
 

@@ -85,6 +85,8 @@ body {
   font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #474948;
 }
+
+
 @media (max-width: 767px) {
   body {
     padding: 0;
@@ -114,6 +116,14 @@ body {
     padding: 0 10px;
     width: 300px;
   }
+}
+
+.container {
+  width: 90%;
+}
+
+[class*="span"] {
+  margin-left: 0;
 }
 /*---
 | GENERAL ELEMENTS
@@ -2229,16 +2239,17 @@ textarea {
 .header .top {
   position: relative;
   z-index: 10;
-  background-color: #474948;
+  background-color: #000!important;
   height: 32px;
   font-size: 12px;
   line-height: 32px;
-  color: #ffffff;
+  color: #ffe8ee;
 }
 .header .top p,
 .header .top ul {
   margin-bottom: 0;
 }
+
 .header .top a {
   font-size: 12px;
   color: inherit;
@@ -2314,8 +2325,8 @@ textarea {
   color: #c7c8c8;
 }
 .header .bottom {
-  background-color: #ffffff;
-  padding: 0;
+  background-color: #ffe8ee;
+  padding: 20px 0;
   -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
   -moz-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
   box-shadow: 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
@@ -2371,30 +2382,17 @@ textarea {
   position: relative;
 }
 .header .search .qs_s #query {
-  background-color: #f0f0f0;
-  border-color: #d7d7d7;
-  padding: 4px 14px;
+  border: 0;
+  box-shadow: none;
+  padding: 7px 14px;
   margin-bottom: 0;
-  width: 100%;
-  height: 30px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  width: 310px;
+  height: 25px;
+  background: #ffe8ee;
+  border-bottom: 1px solid #000000;
   box-sizing: border-box;
-  -webkit-border-radius: 9999px;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 9999px;
-  -moz-background-clip: padding;
-  border-radius: 9999px;
-  background-clip: padding-box;
-  -webkit-box-shadow: inset 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
-  -moz-box-shadow: inset 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
-  box-shadow: inset 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
-}
-.header .search .qs_s #query:focus {
-  background-color: #f6f6f6;
-  -webkit-box-shadow: inset 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
-  -moz-box-shadow: inset 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
-  box-shadow: inset 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
+  color: #ffbacc;
+  font-size: 14px;
 }
 .header .search .qs_s input[type="submit"] {
   display: none;
@@ -2513,7 +2511,7 @@ textarea {
 | NAVIGATION
 ---*/
 nav.navigation {
-  background-color: #fbfbf9;
+  background-color: #ffe8ee!important;
   position: relative;
   z-index: 240;
   -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.09999999999999998);
@@ -2547,7 +2545,9 @@ nav.navigation {
   text-decoration: none;
   font-size: 12px;
   display: block;
+  color: #781b34;
 }
+
 .main-menu li {
   position: relative;
 }
@@ -8055,4 +8055,65 @@ html[xmlns] .slides {
 .entry-content .mc4wp-form .wpcf7-submit:active,
 .wpcf7-form .wpcf7-submit:active {
   background-color: #e300e6;
+}
+
+.number{
+  width: 280px;
+  margin-top: 15px;
+  padding-left: 60px;
+  position: relative;
+}
+
+.number:before {
+  position: absolute;
+  content: '';
+  display: block;
+  background: url("http://malwa.dev/wp-content/themes/laboutique/images/number.png");
+  top: -5px;
+  left: 0;
+  width: 44px;
+  height: 44px;
+}
+
+.number_list-left {
+  float: left;
+}
+
+.number_list-right {
+  float: right;
+}
+
+.number_item {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+.number_link {
+  font-size: 18px!important;
+  font-weight: normal!important;
+}
+
+.number_link:hover {
+  text-decoration: underline;
+}
+
+.offset2 {
+  margin-left: 0;
+  width: 347px;
+  text-align: right;
+}
+
+.search {
+  position: relative;
+}
+
+.search:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background: url("http://malwa.dev/wp-content/themes/laboutique/images/search.png");
+  top: 21px;
+  left: -34px;
+  width: 29px;
+  height: 29px;
 }
