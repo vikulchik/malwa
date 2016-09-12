@@ -17,6 +17,8 @@
         <meta name="author" content="La Boutique WP v1.2" />
 	<title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Cormorant+Infant" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <?php if (theme_option('favicon')){?>
@@ -130,19 +132,6 @@
                                 <?php echo theme_option('top_left'); ?>
                             </p>
                         </div>
-
-                        <div class="span6">
-                            <?php if (theme_option('top_right')){?>
-                                <?php laboutique_my_account_nav(array(
-                                    'class'=>'inline pull-right'
-                                )); ?>
-                            <?php } ?>
-                            <?php if (theme_option('top_language_switcher')=='right'){?>
-                                <span class="pull-right">
-                                    <?php do_action('icl_language_selector'); ?>
-                                </span>
-                            <?php } ?>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -154,6 +143,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="span8">
+                            <div class="info">
                             <div class="number">
                                 <ul class="number_list number_list-left">
                                     <li class="number_item">
@@ -192,14 +182,40 @@
                                     <?php } ?>
                                 </div>
                         </div>
+                            <div class="logo">
+                                <a href="<?php echo home_url();?>" title="<?=esc_attr(theme_option('header_bar_logo_title'))?>">
+                                    <?php if (theme_option('header_bar_logo_retina') || theme_option('header_bar_logo')){?>
+                                        <img style="<?php if (theme_option('header_bar_logo_margin')){?>margin-top: <?php echo theme_option('header_bar_logo_margin')?>px;<?php } ?> <?php if (theme_option('header_bar_logo_width')){?>width: <?php echo theme_option('header_bar_logo_width')?>px;<?php } ?> " src="<?php if (theme_option('header_bar_logo_retina')){?><?php $url=theme_option('header_bar_logo_retina'); ?><?php } else {?><?php $url=theme_option('header_bar_logo')?><?php } ?><?php echo $url['url'];?>" alt="<?php echo esc_attr(theme_option('header_bar_logo_alt'))?>" />
+                                    <?php } ?>
+                                </a>
+                            </div>
+                        </div>
 
                         <div class="span4">
+                            <div class="span4">
+                                <?php if (theme_option('top_right')){?>
+                                    <?php laboutique_my_account_nav(array(
+                                        'class'=>'inline pull-right'
+                                    )); ?>
+                                <?php } ?>
+                                <?php if (theme_option('top_language_switcher')=='right'){?>
+                                    <span class="pull-right">
+                                    <?php do_action('icl_language_selector'); ?>
+                                </span>
+                                <?php } ?>
+                            </div>
                             <div class="row-fluid">
-
-
-
-
-
+                                <span>Список побажань</span>
+                                <div class="span2">
+                                    <div class="mini-wish">
+                                        <a href="" class="wish">
+                                            <span>0</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-fluid">
+                                <span>Кошик</span>
                                 <div class="span2">
                                     <?php
                                         laboutique_mini_cart();

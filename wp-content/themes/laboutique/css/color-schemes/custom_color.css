@@ -2351,15 +2351,13 @@ textarea {
 }
 .header .logo {
   padding: 10px 0;
+  display: inline-block;
 }
 .header .logo a {
-  display: inline-block;
-  height: 60px;
+  display: block;
   text-decoration: none;
 }
-.header .logo img {
-  max-height: 100%;
-}
+
 @media (max-width: 767px) {
   .header .logo {
     width: auto;
@@ -2371,7 +2369,7 @@ textarea {
   }
 }
 .header .search {
-  padding: 25px 0;
+  padding: 25px 0 25px 40px;
 }
 @media (max-width: 767px) {
   .header .search {
@@ -2468,8 +2466,12 @@ textarea {
   font-weight: 700;
   color: #ffffff;
 }
-.mini-cart {
-  padding: 20px 0;
+.mini-cart, .mini-wish {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: -11px;
+  right: -59px;
 }
 @media (max-width: 767px) {
   .mini-cart {
@@ -2481,14 +2483,32 @@ textarea {
 }
 .mini-cart a {
   display: block;
+  border-radius: 50%;
+  border: 1px solid #000000;
   line-height: 40px;
   float: right;
-  height: 40px;
-  width: 40px;
-  background: url('../../images/cart.png') no-repeat left center;
+  height: 43px;
+  width: 43px;
+  background: url('../../images/cart.png') no-repeat center center;
   position: relative;
 }
-.mini-cart a > span {
+
+.row-fluid  {
+  position: relative;
+}
+
+.wish {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  line-height: 40px;
+  float: right;
+  height: 43px;
+  width: 43px;
+  background: url('../../images/wish.png') no-repeat center center;
+  position: relative;
+}
+.mini-cart a > span, .mini-wish  a > span{
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -2498,8 +2518,8 @@ textarea {
   background-color: #fc00ff;
   color: #ffffff;
   position: absolute;
-  top: 0;
-  right: 0px;
+  top: -6px;
+  right: 0;
   -webkit-border-radius: 12px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 12px;
@@ -2603,9 +2623,10 @@ nav.navigation {
   top: -9999px;
 }
 .main-menu > li > a {
-  padding: 15px 30px 15px 0;
+  padding: 15px 25px 15px 25px;
   color: #606362;
   text-transform: uppercase;
+  font-family: 'Cormorant Infant', serif;
 }
 .main-menu > li:hover > a,
 .main-menu > li > a:hover {
@@ -3518,9 +3539,6 @@ nav.navigation {
   color: inherit;
   text-decoration: none;
   z-index: 20;
-  -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
-  -moz-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
-  box-shadow: 0 1px 2px rgba(71, 73, 72, 0.19999999999999996);
 }
 .product-list a:hover {
   -webkit-box-shadow: 0 2px 3px rgba(71, 73, 72, 0.5);
@@ -6647,19 +6665,12 @@ html[xmlns] .slides {
 | WIDGET
 ---*/
 .widget {
-  background-color: #ffffff;
-  border-top: 5px solid #fc00ff;
   padding: 20px;
   margin-bottom: 20px;
-  -webkit-border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 2px;
   -moz-background-clip: padding;
-  border-radius: 2px;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
-  -moz-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
-  box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
 }
 .widget h2.widgettitle,
 .widget h3.widget-title {
@@ -7034,7 +7045,7 @@ html[xmlns] .slides {
   border: 0px;
   display: block;
   padding: 15px 20px;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 0;
   color: #797d7b;
   text-decoration: none;
   font-size: 12px;
@@ -8064,6 +8075,12 @@ html[xmlns] .slides {
   position: relative;
 }
 
+.number:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .number:before {
   position: absolute;
   content: '';
@@ -8113,7 +8130,101 @@ html[xmlns] .slides {
   display: block;
   background: url("http://malwa.dev/wp-content/themes/laboutique/images/search.png");
   top: 21px;
-  left: -34px;
+  left: 0;
   width: 29px;
   height: 29px;
+}
+
+.row-fluid {
+  width: 180px;
+  display: inline-block;
+}
+
+.menu-main-navigation-container {
+  width: 941px;
+  margin: auto;
+}
+
+.products {
+  width: 95%;
+  margin: auto;
+}
+
+.products_block {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.products_item {
+  width: 615px;
+  min-height: 355px;
+  margin-left: 25px;
+}
+
+.products_item:first-child {
+  margin-left: 0;
+}
+
+.products_description {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Cormorant Infant', serif;
+  color: #781b34;
+  display: block;
+  padding: 20px 20px 0 70px;
+  line-height: 1;
+  position: relative;
+  text-decoration: none;
+}
+
+.products_description:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 79px;
+  height: 88px;
+  background: url("http://malwa.dev/wp-content/themes/laboutique/images/product.png");
+  top: -28px;
+  left: 45px;
+}
+
+.products_description span {
+  position: relative;
+  z-index: 10;
+}
+
+.span6 .hidden-phone {
+  width: 100%!important;
+}
+
+.header .top p {
+  width: 430px;
+  margin: auto;
+}
+
+.info {
+  width: 355px;
+  min-height: 70px;
+  display: inline-block;
+}
+
+.bottom .span8, .bottom .row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom .span4 {
+  width: 380px;
+  text-align: end;
+}
+
+.widget-title {
+  display: none;
+}
+
+#menu-catalog-menu-1 li a {
+  font-size: 20px;
+  color: #682f3e;
+  text-transform: uppercase;
+  font-family: 'Cormorant Infant', serif;
 }

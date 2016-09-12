@@ -124,7 +124,7 @@ a img.aligncenter {
 }
 
 .sub-menu  li a {
-	font-weight: normal!important;
+	font-weight: 600!important;
 }
 .sub-menu  li ul li a {
     padding-left: 70px!important;
@@ -143,20 +143,13 @@ a img.aligncenter {
 }
 #menu-catalog-menu-1 .menu-item-has-children:before{
     content: "";
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 0 6px 8px;
-    border-color: transparent transparent transparent #ac3048;
+    display: block;
+    width: 17px;
+    height: 12px;
     position: absolute;
-    left: 10px;
+    left: 0;
     top: 18px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-
+    background: url("http://malwa.dev/wp-content/themes/laboutique/images/arrow.png") no-repeat 0 0;
 }
 #menu-catalog-menu-1 .menu-item-has-children{
     border-color: transparent transparent transparent #fff;
@@ -181,6 +174,9 @@ a img.aligncenter {
 }
 #menu-catalog-menu-1 li ul li a{
     padding-left: 50px;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Cormorant', serif;
 }
 #menu-catalog-menu-1 li ul .menu-item-has-children:before{
     left: 30px;
