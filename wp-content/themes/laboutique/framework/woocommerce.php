@@ -59,13 +59,14 @@
                 <?php }?>
 
             <div class="title">
-                <div class="prices">                                                                                            
-        <?php if ($sale_price<>0&&$regular_price<>0){?>
+                <h3><?php the_title();?></h3>
+                <div class="prices">
+                    <?php if ($sale_price<>0&&$regular_price<>0){?>
 
-                        <del class="base"><?php echo woocommerce_price($regular_price);?></del> 
-                        <span class="price"><?php echo woocommerce_price($sale_price);?></span>                         
+                        <del class="base"><?php echo woocommerce_price($regular_price);?></del>
+                        <span class="price"><?php echo woocommerce_price($sale_price);?></span>
 
-        <?php } else {?>            
+                    <?php } else {?>
                         <span class="price">
                         <?php
                         /**
@@ -76,9 +77,8 @@
                         woocommerce_get_template('loop/price.php');
                         ?>
                         </span>
-                        <?php }?>
+                    <?php }?>
                 </div>
-                <h3><?php the_title();?></h3>
         <?php
             
         if (!theme_option('shop_disable_reviews')){

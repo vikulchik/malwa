@@ -73,21 +73,9 @@ get_header(); ?>
         <div class="row">
             <div class="span12">
                 <section class="static-page">
-                    <div class="row-fluid">
-                        <div class="span3 visible-desktop hidden-phone hidden-table">
-                            <?php if ($is_woocommerce && is_user_logged_in()){?>
-                                <? laboutique_my_account_sidebar_nav(array(
-                                    'class'=>'nav nav-tabs nav-stacked',
-                                ))?>
-                            <?php } else {?>
-                                <?php wp_nav_menu( array(
-                                    'theme_location'=>'pages_sidebar',
-                                    'menu_class'=>'nav nav-tabs nav-stacked',
-                                    'fallback_cb'=>'false'                               
-                                ));?>
-                            <?php } ?>
-                        </div>
-
+                    <div class="row-fluid action" >
+                        <a href="#" class="products_description">
+                            <span>Контакти</span></a>
                         <div class="span9">
                             <div class="content">
 

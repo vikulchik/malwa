@@ -20,7 +20,7 @@ global $woocommerce;
         <div class="row">
             <div class="span12">
                 <section class="static-page">
-                    <div class="row-fluid">
+                    <div class="row-fluid action">
                         <div class="span3 visible-desktop hidden-phone hidden-table">
                             <?php if (is_user_logged_in()){?>
                                 <? laboutique_my_account_sidebar_nav(array(

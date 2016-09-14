@@ -149,7 +149,7 @@ a img.aligncenter {
     position: absolute;
     left: 0;
     top: 18px;
-    background: url("http://malwa.dev/wp-content/themes/laboutique/images/arrow.png") no-repeat 0 0;
+    background: url("/wp-content/themes/laboutique/images/arrow.png") no-repeat 0 0;
 }
 #menu-catalog-menu-1 .menu-item-has-children{
     border-color: transparent transparent transparent #fff;

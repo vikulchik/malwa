@@ -1481,9 +1481,6 @@ textarea {
   -moz-background-clip: padding;
   border-radius: 2px;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
-  -moz-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
-  box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
   /*&.box-content{
 		margin-bottom: 0px;
 	}*/
@@ -1498,7 +1495,7 @@ textarea {
 .box .box-header h3 {
   font-size: 16px;
   line-height: 24px;
-  color: #474948;
+  color: #682f3e;
   font-weight: 700;
   margin: 0;
 }
@@ -1510,8 +1507,7 @@ textarea {
   margin: 0;
 }
 .box .box-image {
-  margin: -20px -20px 20px;
-  border-bottom: 1px solid #f0f0f0;
+  width: 625px;
 }
 .box .box-image a,
 .box .box-image img {
@@ -2530,8 +2526,9 @@ nav.navigation {
 }
 .main-menu a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
   display: block;
+  color: #781b34;
 }
 .main-menu li {
   position: relative;
@@ -3504,11 +3501,6 @@ nav.navigation {
   text-decoration: none;
   z-index: 20;
 }
-.product-list a:hover {
-  -webkit-box-shadow: 0 2px 3px rgba(71, 73, 72, 0.5);
-  -moz-box-shadow: 0 2px 3px rgba(71, 73, 72, 0.5);
-  box-shadow: 0 2px 3px rgba(71, 73, 72, 0.5);
-}
 .product-list a:hover .image .secondary {
   zoom: 1;
   filter: alpha(opacity=100);
@@ -3522,6 +3514,7 @@ nav.navigation {
 .product-list a .image {
   position: relative;
   background: #ffffff url('../../images/preloader.gif') no-repeat center center;
+  border: 1px solid #d3d3d3;
 }
 .product-list a .image img {
   display: block;
@@ -3589,11 +3582,12 @@ nav.navigation {
   transform: rotate(45deg);
 }
 .product-list a .title .prices {
-  text-align: right;
-  float: right;
-  margin-left: 20px;
   line-height: 20px;
   height: 20px;
+}
+
+.content-area .index {
+  margin-top: 25px;
 }
 .product-list a .title .prices .price {
   color: #1abc9c;
@@ -5913,9 +5907,6 @@ html[xmlns] .slides {
   -moz-background-clip: padding;
   border-radius: 2px;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
-  -moz-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
-  box-shadow: 0 1px 2px rgba(71, 73, 72, 0.25);
   /*&.box-content{
 		margin-bottom: 0px;
 	}*/
@@ -7612,6 +7603,7 @@ html[xmlns] .slides {
 .index .post-grid {
   float: none;
   width: auto;
+  padding: 20px;
 }
 @media (min-width: 980px) and (max-width: 1199px) {
   .index {
@@ -7621,7 +7613,7 @@ html[xmlns] .slides {
 }
 .post-meta {
   list-style: none;
-  font-size: 12px;
+  font-size: 14px;
   color: #a6a9a8;
   margin: 10px 0 0;
   /*zoom: 1;*/
