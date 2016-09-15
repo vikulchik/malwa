@@ -18,7 +18,7 @@ if (DEBUG_INFO) {
 	echo "\n<!-- FILE: /page-home.php ================================================================= -->\n";
 }
 get_header(); ?>
-<?php putRevSlider("malwa","homepage") ?>
+<?php putRevSlider("malva","homepage") ?>
 <div class="products">
     <div class="products_block">
         <div class="products_item" >

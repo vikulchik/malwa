@@ -48,6 +48,11 @@ if (DEBUG_INFO) {
                 </a>
             </div>
         </div>
+            <ul class="social">
+                <li class="social-item fb"><a href="https://www.facebook.com/malwalviv/"></a></li>
+                <li class="social-item vk"><a href="http://vk.com/malwalviv"></a></li>
+                <li class="social-item ins"><a href="https://www.instagram.com/malva_lviv/"></a></li>
+            </ul>
         <?php else : ?>
 
         <div class="box-header">

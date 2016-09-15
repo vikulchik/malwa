@@ -21,16 +21,10 @@ if (DEBUG_INFO) {
         <div class="container">
             <div class="row">
                 <div class="span12">
-			<ul class="social">
-				<li class="social-item fb"><a href="https://www.facebook.com/malwalviv/"></a></li>
-				<li class="social-item vk"><a href="http://vk.com/malwalviv"></a></li>
-                                <li class="social-item ins"><a href="https://www.instagram.com/malva_lviv/"></a></li>
-			</ul>
+                    <span class="footer-span">Підписатися на розсилку</span>
+                    <input type="email" name="email" placeholder="Введіть ваш e-mail..." class="footer-input">
                         <!-- <div class="share42init"></div>
                                                  <script type="text/javascript" src="http://malwa.com.ua/share42/share42.js"></script> -->
-					<a rel="nofollow" class="sslogo" target="_blanc" href="https://soft-studio.com.ua/"> 
-						<img alt="SoftStudio" src="http://malwa.com.ua/wp-content/themes/laboutique/images/soft-studio.com.ua.png">
-					</a>
                 </div>
             </div>
         </div>

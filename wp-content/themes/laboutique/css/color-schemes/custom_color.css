@@ -2925,9 +2925,7 @@ nav.navigation {
 /*---
 | MAIN
 ---*/
-.main {
-  padding: 40px 0 80px;
-}
+/*---
 /*---
 | CRUMBS
 ---*/
@@ -2981,7 +2979,7 @@ nav.navigation {
 ---*/
 .twitter-bar {
   padding: 20px 0;
-  background-color: #fbfbf9;
+  background-color: #ffe8ee;
   position: relative;
   z-index: 40;
   -webkit-box-shadow: 0 -1px 2px rgba(71, 73, 72, 0.09999999999999998);
@@ -7948,6 +7946,8 @@ html[xmlns] .slides {
   min-height: 30px;
   width: 100%;
   display: block;
+  border-radius: 15px;
+  border: 1px solid #d3d3d3;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -8141,7 +8141,7 @@ html[xmlns] .slides {
 
 .products {
   width: 95%;
-  margin: auto;
+  margin: 60px auto auto auto;
 }
 
 .products_block {
@@ -8241,6 +8241,7 @@ html[xmlns] .slides {
 
 .action {
   width: 1035px;
+  margin-top: 60px;
 }
 
 .content-area .index {
@@ -8298,4 +8299,29 @@ html[xmlns] .slides {
   border-radius: 50%;
   bottom: -4px;
   right: 0;
+}
+
+.tp-caption a {
+  color: #781b34!important;
+  font-size: 70px;
+}
+
+.slider-button {
+  font-size: 22px!important;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #781b34;
+  padding: 20px 30px;
+  margin-top: 110px!important;
+
+}
+
+.slider-block {
+  padding-left: 200px!important;
+  font-size: 22px!important;
+}
+
+.footer-span {
+  text-transform: uppercase;
+  font-size: 20px;
 }
