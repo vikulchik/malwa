@@ -196,23 +196,28 @@ a img.aligncenter {
 	display: inline-block;
 }
 .social .social-item{
-	width: 32px;
-	height: 32px;
+	width: 44px;
+	height: 44px;
 	background-size: 32px 32px;
 	display: inline-block;
+    margin-left: 10px;
+}
+
+.social .social-item:first-child {
+    margin-left: 0;
 }
 .social .social-item a{
 	height: 100%;
 	display: block;
 }
 .social .fb {
-	background-image: url('http://malwa.com.ua/wp-content/uploads/2016/04/social_fb.png');
+	background: url('/wp-content/uploads/2016/04/fb.png') no-repeat 0 0;
 }
 .social .vk {
-	background-image: url('http://malwa.com.ua/wp-content/uploads/2016/04/social_vk.png');
+	background: url('/wp-content/uploads/2016/04/vk.png') no-repeat 0 0;
 }
 .social .ins {
-	background-image: url('http://malwa.com.ua/wp-content/uploads/2016/04/picture_ins.png');
+	background: url('/wp-content/uploads/2016/04/instagram.png') no-repeat 0 0;
 }
 .ajax_loading_indicator{
     left: 55% !important;

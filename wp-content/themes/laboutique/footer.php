@@ -22,7 +22,9 @@ if (DEBUG_INFO) {
             <div class="row">
                 <div class="span12">
                     <span class="footer-span">Підписатися на розсилку</span>
-                    <input type="email" name="email" placeholder="Введіть ваш e-mail..." class="footer-input">
+                    <div class="footer-mail">
+                        <input type="email" name="email" placeholder="Введіть ваш e-mail..." class="footer-input">
+                    </div>
                         <!-- <div class="share42init"></div>
                                                  <script type="text/javascript" src="http://malwa.com.ua/share42/share42.js"></script> -->
                 </div>
@@ -38,90 +40,50 @@ if (DEBUG_INFO) {
     <div class="footer">
         <div class="container">
             <div class="row">
-
-                <?php if (theme_option('footer_layout')=='footer-columns-1'){?>
-                <div class="span12">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-2'){?>
-                <div class="span6">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <div class="span6">
-                    <?php dynamic_sidebar('footer-2'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-2-alt1'){?>
-                <div class="span9">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-2'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-2-alt2'){?>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <div class="span9">
-                    <?php dynamic_sidebar('footer-2'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-3'){?>
                 <div class="span4">
-                    <?php dynamic_sidebar('footer-1'); ?>
+                    <h5 class="footer-description">Контакти</h5>
+                    <div class="malwa">
+                        <h6 class="footer-name">Мальва – Південний</h6>
+                        <p class="footer-adress">Львів, ТВК “Південний”, ТЦ “Україна” №215</p>
+                        <a href="tell:(096)9130700" class="footer-tell">тел.: (096) 913-07-00,</a>
+                        <a href="tell:(063)0237877" class="footer-tell">(063) 023-78-77</a>
+                    </div>
+                    <div class="malwa">
+                        <h6 class="footer-name">Мальва – центр</h6>
+                        <p class="footer-adress">Львів, пр. Свободи, 43 (вхід в браму)</p>
+                        <a href="tell:(097)7021483" class="footer-tell">тел.: (097) 702-14-83,</a>
+                        <a href="tell:(063)0192969" class="footer-tell">(063) 019-29-69</a>
+                    </div>
                 </div>
                 <div class="span4">
-                    <?php dynamic_sidebar('footer-2'); ?>
+                    <h5 class="footer-description">Меню</h5>
+                    <?php wp_nav_menu( array(
+                        'theme_location' => 'footer-menu',
+                        'container'=>false,
+                        'depth'=>'1',
+                        'echo'=>'1'));
+                    ?>
                 </div>
                 <div class="span4">
-                    <?php dynamic_sidebar('footer-3'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-3-alt1'){?>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-2'); ?>
-                </div>
-                <div class="span6">
-                    <?php dynamic_sidebar('footer-3'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-3-alt2'){?>
-                <div class="span6">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-2'); ?>
-                </div>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-3'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-4'){?>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-2'); ?>
-                </div>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-3'); ?>
-                </div>
-                <div class="span3">
-                    <?php dynamic_sidebar('footer-4'); ?>
-                </div>
-                <?php } else if (theme_option('footer_layout')=='footer-columns-4-alt1'){?>
-                <div class="span2">
-                    <?php dynamic_sidebar('footer-1'); ?>
-                </div>
-                <div class="span2">
-                    <?php dynamic_sidebar('footer-2'); ?>
+                    <h5 class="footer-description"></h5>
                 </div>
                 <div class="span4">
-                    <?php dynamic_sidebar('footer-3'); ?>
+                    <h5 class="footer-description">Приєднуйтесь</h5>
+                    <ul class="social">
+                        <li class="social-item fb"><a href="https://www.facebook.com/malwalviv/"></a></li>
+                        <li class="social-item vk"><a href="http://vk.com/malwalviv"></a></li>
+                        <li class="social-item ins"><a href="https://www.instagram.com/malva_lviv/"></a></li>
+                    </ul>
+                    <span class="payment">Приймаємо оплату</span>
+                    <ul class="payment-list">
+                        <li class="payment-item">
+                            <img src="/wp-content/themes/laboutique/images/visa.png" width="71" height="42" alt="">
+                        </li>
+                        <li class="payment-item">
+                            <img src="/wp-content/themes/laboutique/images/mastercard.png" width="70" height="42" alt="">
+                        </li>
+                    </ul>
                 </div>
-                <div class="span4">
-                    <?php dynamic_sidebar('footer-4'); ?>
-                </div>
-                <?php } ?>
-
             </div>
         </div>
     </div>

@@ -3090,7 +3090,7 @@ nav.navigation {
 .footer {
   position: relative;
   z-index: 50;
-  background-color: #ffffff;
+  background-color: #000;
   padding: 40px 0;
   padding-bottom: 0px;
   font-size: 13px;
@@ -3117,7 +3117,6 @@ nav.navigation {
   font-weight: 600;
   text-transform: uppercase;
   margin: 0 0 20px;
-  color: #474948;
 }
 .footer ul {
   margin: 0;
@@ -3131,7 +3130,6 @@ nav.navigation {
   list-style: none;
 }
 .footer ul a {
-  color: #797d7b;
   text-decoration: none;
 }
 .footer ul a:hover,
@@ -7061,7 +7059,7 @@ html[xmlns] .slides {
 .widget.widget_pages a:focus,
 .widget.Categories a:focus,
 .widget.Menu a:focus {
-  background-color: #fc00ff;
+  background-color: #ffe8ee;
   color: #ffffff;
 }
 .widget.icl_languages_selector #lang_sel_list ul ul,
@@ -8310,7 +8308,7 @@ html[xmlns] .slides {
   font-size: 22px!important;
   text-transform: uppercase;
   text-decoration: none;
-  border: 1px solid #781b34;
+  border: 1px solid #781b34!important;
   padding: 20px 30px;
   margin-top: 110px!important;
 
@@ -8324,4 +8322,109 @@ html[xmlns] .slides {
 .footer-span {
   text-transform: uppercase;
   font-size: 20px;
+  margin-right: 20px;
+}
+
+.footer-mail {
+  display: inline-block;
+  position: relative;
+}
+
+.footer-mail:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background: url("/wp-content/themes/laboutique/images/footer-arrow.png") no-repeat 0 0 ;
+  width: 17px;
+  height: 12px;
+  top: 0;
+  right: 0;
+}
+
+.footer-input {
+  border: 0!important;
+  box-shadow: none!important;
+  padding: 7px 14px;
+  margin-bottom: 0;
+  width: 725px;
+  height: 25px;
+  background: #ffe8ee!important;
+  border-bottom: 1px solid #000000!important;
+  box-sizing: border-box;
+  color: #ffbacc;
+  font-size: 14px;
+}
+
+.footer-description {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: 'Cormorant Infant', serif;
+  color: #ffe8ee;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #ffbacc;
+  position: relative;
+}
+
+.footer-description:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 6px;
+  height: 7px;
+  background: #ffbacc;
+  border-radius: 50%;
+  bottom: -4px;
+  right: 0;
+}
+
+.footer-name {
+  color: #ffffff;
+}
+
+.footer-adress, .footer-tell, .payment {
+  font-size: 14px;
+  color: #efefef;
+  text-decoration: none;
+}
+
+.footer-adress {
+  margin: 0;
+}
+
+.malwa {
+  margin-bottom: 55px;
+}
+
+.footer .span4 {
+  width: 325px;
+  margin-left: 90px;
+}
+
+.footer .span4:first-child {
+  margin-left: 0;
+}
+
+.payment {
+  display: block;
+  margin: 40px 0 15px 0;
+}
+
+.payment-item {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.payment-item:first-child {
+  margin-left: 0;
+}
+
+.menu a {
+  font-size: 14px;
+  color: #efefef;
+  text-transform: uppercase;
+}
+
+.menu li {
+  margin-bottom: 15px;
+
 }

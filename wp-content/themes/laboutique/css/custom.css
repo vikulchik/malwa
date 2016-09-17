@@ -7033,7 +7033,7 @@ html[xmlns] .slides {
 .widget.widget_pages a:focus,
 .widget.Categories a:focus,
 .widget.Menu a:focus {
-  background-color: #1abc9c;
+  background-color: #ffe8ee;
   color: #ffffff;
 }
 .widget.icl_languages_selector #lang_sel_list ul ul,
