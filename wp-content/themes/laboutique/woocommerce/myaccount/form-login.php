@@ -31,15 +31,16 @@
                     <form method="post" class="login">
 
                         <div class="hgroup title">
-                            <h3><?php _e('Login','woocommerce');?></h3>
-                            <h5><?php _e('Будь ласка, увійдіть, використовуючи існуючий акаунт',DOMAIN);?></h5>
+                            <a href="#" class="products_description my-account">
+                                <span>Увійти до системи</span></a>
+                            <h3 class="form-description" style=" color:#781b34; font-size:24px;text-transform:uppercase; border-bottom:1px solid #ffbacc;font-weight: bold; padding-bottom: 22px;">увійти до особового кабінету</h3>
                         </div>
 
                         <div class="box-content">
                             <div class="row-fluid">
                                 <div class="span6">
                                     <div class="control-group">
-                                        <label class="control-label" for="login_email"><?php _e('Username or email','woocommerce');?></label>
+                                        <label class="control-label" for="login_email"><?php _e('Email','woocommerce');?></label>
                                         <div class="controls">
                                             <input type="text" class="input-text span12" name="username" id="username" />
                                         </div>
@@ -48,7 +49,7 @@
 
                                 <div class="span6">	
                                     <div class="control-group">					
-                                        <label class="control-label" for="login_password"><?php _e('Password','woocommerce');?></label>
+                                        <label class="control-label" for="login_password"><?php _e('Пароль','woocommerce');?></label>
                                         <div class="controls">
                                             <input class="input-text span12" type="password" name="password" id="password" />
                                         </div>
@@ -61,7 +62,7 @@
                             <div class="pull-left">
                                 <?php wp_nonce_field('woocommerce-login');?>
                                 <button type="submit" class="btn btn-primary btn-small" name="login" value="<?php _e('Login','woocommerce');?>">
-                                    <?php _e('Login','woocommerce');?>
+                                    <?php _e('Увійти','woocommerce');?>
                                 </button>
 
 

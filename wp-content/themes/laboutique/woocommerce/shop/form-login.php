@@ -19,7 +19,7 @@ if (is_user_logged_in()) return;
     <form method="post" class="login" <?php if ( $hidden ) echo 'style="display:none;"'; ?>>
         <div class="box">
     <div class="box-header">
-        <h3><?php _e( 'Login', 'woocommerce' ); ?></h3>        
+        <h3><?php _e( 'Login', 'woocommerce' ); ?></h3>
     </div>
 
     <div class="box-content">

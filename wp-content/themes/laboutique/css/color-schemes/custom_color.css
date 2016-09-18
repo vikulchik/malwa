@@ -1452,7 +1452,6 @@ textarea {
 .hgroup.title {
   margin: 0 -20px;
   padding: 0 20px;
-  border-bottom: 1px solid #f0f0f0;
   padding-bottom: 20px;
   background-color: #ffffff;
 }
@@ -1690,13 +1689,7 @@ textarea {
 .box .form-submit input[type="submit"]:active {
   background-color: #e300e6;
 }
-.box .buttons {
-  /*zoom: 1;*/
-  margin: 20px -20px -20px;
-  padding: 20px;
-  border-top: 1px solid #f0f0f0;
-  background-color: #f9f9f9;
-}
+
 .box .buttons:before {
   content: '';
   display: block;
@@ -8427,4 +8420,52 @@ html[xmlns] .slides {
 .menu li {
   margin-bottom: 15px;
 
+}
+
+.description {
+  text-indent: -9999px;
+}
+
+.my-account {
+  margin-bottom: 50px;
+}
+
+.controls input {
+  border-radius: 15px;
+}
+
+.controls {
+  width: 405px;
+
+}
+
+.login .span6 {
+  margin-left: 0;
+}
+
+.login .row-fluid,  .login  .span6{
+  width: 100%;
+}
+.control-label{
+ float: left;
+}
+
+
+.controls {
+  float: right;
+}
+
+  .login .box-content {
+  float: none;
+  width: 100%;
+}
+
+.btn-primary {
+  border-radius: 25px;
+  background: #ffbacc;
+  font-weight: normal;
+  text-transform: capitalize;
+  display: block;
+  text-align: center;
+  width: 405px;
 }

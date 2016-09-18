@@ -25,11 +25,11 @@ if (DEBUG_INFO) {
                 </a>
             </div>
             <?php endif; ?>
-        
+
         <div class="box-header">
             <h3>
                 <a href="<?php the_permalink(); ?>">
-                    <?php the_title(); ?>						
+                    <?php the_title(); ?>
                 </a>
             </h3>
             <ul class="post-meta entry-meta">
@@ -60,17 +60,17 @@ if (DEBUG_INFO) {
                 <?php if ( is_single() ) : ?>
 		<?php the_title(); ?>
 		<?php else : ?>
-		
+
                 <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-		
-		<?php endif; // is_single() ?>				
+
+		<?php endif; // is_single() ?>
             </h2>
             <ul class="post-meta entry-meta">
                 <?php edit_post_link( __( 'Edit', DOMAIN ), '<li class="edit-link"><i class="icon-edit"></i> &nbsp; ', '</li>' ); ?>
-                <?php laboutique_entry_meta(); ?>                                
-                <?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) ) : ?>                   
-                    <span class="cat-links"><i class="icon-bookmark"></i> &nbsp; <?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', DOMAIN ) ); ?></span>                    
-                <?php endif; ?>                
+                <?php laboutique_entry_meta(); ?>
+                <?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) ) : ?>
+                    <span class="cat-links"><i class="icon-bookmark"></i> &nbsp; <?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', DOMAIN ) ); ?></span>
+                <?php endif; ?>
             </ul>
 
             <!-- .entry-meta -->

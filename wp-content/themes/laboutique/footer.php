@@ -65,7 +65,13 @@ if (DEBUG_INFO) {
                     ?>
                 </div>
                 <div class="span4">
-                    <h5 class="footer-description"></h5>
+                    <h5 class="footer-description description">Меню</h5>
+                    <?php wp_nav_menu( array(
+                        'theme_location' => 'footer-menu-second',
+                        'container'=>false,
+                        'depth'=>'1',
+                        'echo'=>'1'));
+                    ?>
                 </div>
                 <div class="span4">
                     <h5 class="footer-description">Приєднуйтесь</h5>

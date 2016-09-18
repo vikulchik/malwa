@@ -139,6 +139,7 @@
         register_nav_menu('pages_sidebar',__('Sidebar Menu', DOMAIN));
         register_nav_menu('second',__('Second Menu', DOMAIN));
         register_nav_menus( array( 'footer-menu' => 'Footer Menu' ) );
+        register_nav_menus( array( 'footer-menu-second' => 'Footer Menu Seconds' ) );
 
         /*
          * This theme uses a custom image size for featured images, displayed on

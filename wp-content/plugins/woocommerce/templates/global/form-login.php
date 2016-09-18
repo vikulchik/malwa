@@ -16,7 +16,7 @@ if ( is_user_logged_in() ) {
 }
 
 ?>
-<form method="post" class="login" <?php if ( $hidden ) echo 'style="display:none;"'; ?>>
+<form method="post" +3class="login" <?php if ( $hidden ) echo 'style="display:none;"'; ?>>
 
 	<?php do_action( 'woocommerce_login_form_start' ); ?>
 
