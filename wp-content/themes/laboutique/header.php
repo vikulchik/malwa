@@ -258,15 +258,7 @@
                         </div>
 						</div>
 
-                    <div class="span4">
-                        <?php
-                            if (function_exists('woocommerce_get_template')){
-                                woocommerce_get_template( 'shop/breadcrumb.php' );
-                            }
-                        ?>
-
-
-                    </div>
+                    
                 </div>
 
             </div>

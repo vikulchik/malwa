@@ -2534,6 +2534,11 @@ nav.navigation {
     float: none;
   }
 }
+
+nav.navigation .row  {
+  width: 72%;
+  margin: auto;
+}
 .main-menu {
   margin: 0;
   height: auto;
@@ -2934,7 +2939,8 @@ nav.navigation {
   background-color: transparent;
   margin: 0;
   font-size: 12px;
-  padding: 15px 0;
+  padding:  0;
+  float: inherit;
   -webkit-border-radius: 0px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 0px;
@@ -3616,6 +3622,18 @@ nav.navigation {
   font-weight: bold;
   font-size: 22px;
   float: left;
+  position: relative;
+}
+
+.product-list a .title .prices .price:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background: url("/wp-content/themes/laboutique/images/hurt.png") no-repeat 0 0;
+  width: 26px;
+  height: 22px;
+  top: 0;
+  right:  -45px;
 }
 .product-list a .title .prices .price .from {
   display: none;
@@ -8146,6 +8164,34 @@ html[xmlns] .slides {
   margin-left: 25px;
 }
 
+.products-image {
+  position: relative;
+}
+
+.products-image:after {
+  position: absolute;
+  content: '';
+  display: block;
+  background: #781b34;
+  width: 2px;
+  height: 315px;
+  top: 34px;
+  right: 50px;
+}
+
+
+.products-image:before {
+  position: absolute;
+  content: '';
+  display: block;
+  background: #781b34;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  top: 34px;
+  right: 47px;
+}
+
 .products_item:first-child {
   margin-left: 0;
 }
@@ -8176,7 +8222,21 @@ html[xmlns] .slides {
 .products_description span {
   position: relative;
   z-index: 10;
+  padding-right: 120px;
+  display: block;
 }
+
+.products_description span:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 20%;
+  right: 32px;
+  top: 13px;
+  height: 2px;
+  background: #781b34;
+}
+
 
 .span6 .hidden-phone {
   width: 100%!important;
@@ -8308,7 +8368,6 @@ html[xmlns] .slides {
 }
 
 .slider-block {
-  padding-left: 200px!important;
   font-size: 22px!important;
 }
 
@@ -8468,4 +8527,8 @@ html[xmlns] .slides {
   display: block;
   text-align: center;
   width: 405px;
+}
+
+.pull-right {
+  margin-bottom: 40px!important;
 }

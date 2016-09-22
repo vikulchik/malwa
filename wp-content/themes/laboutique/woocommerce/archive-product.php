@@ -31,6 +31,12 @@ get_header('shop'); ?>
             <div class="row">
 
                 <?php if (theme_option('shop_sidebar')=='left' || !theme_option('shop_sidebar')){?>
+
+                        <?php
+                        if (function_exists('woocommerce_get_template')){
+                            woocommerce_get_template( 'shop/breadcrumb.php' );
+                        }
+                        ?>
                 <div class="span3">
 
                     <!-- Sidebar -->
