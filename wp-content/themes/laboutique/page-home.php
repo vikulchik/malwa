@@ -69,4 +69,9 @@ get_header(); ?>
         </div>
     </div>
 </div>
+<div class="slider-mark-block">
+    <a href="#" class="mark_description">
+        <span>Торгівельні марки</span></a>
+    <?php putRevSlider("slider-mark","homepage") ?>
+</div>
 <?php get_footer(); ?>

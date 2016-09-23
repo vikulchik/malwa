@@ -8532,3 +8532,45 @@ html[xmlns] .slides {
 .pull-right {
   margin-bottom: 40px!important;
 }
+
+.mark_description {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: 'Cormorant Infant', serif;
+  color: #6c6c6c;
+  display: block;
+  padding: 20px 180px 30px 70px;
+  line-height: 1;
+  position: relative;
+  text-decoration: none;
+  text-align: right;
+}
+
+.mark_description:before {
+  position: absolute;
+  content: '';
+  width: 128px;
+  height: 144px;
+  background: url("/wp-content/themes/laboutique/images/slider-mark.png") no-repeat 0 0;
+  top: -36px;
+  right: 129px;
+}
+
+.mark_description span {
+  position: relative;
+  z-index: 10;
+}
+
+.slider-mark-block {
+  margin-bottom: 60px;
+}
+
+.call-me {
+  background: #ffbacc;
+  border-radius: 35px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 20px;
+  width: 160px;
+  box-sizing: border-box;
+}
