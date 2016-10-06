@@ -21,8 +21,8 @@ get_header(); ?>
 <div class="container">
     <div class="row-fluid action">
         <div class="span9">
-            <a href="#" class="products_description">
-                <span>Курси</span></a>
+            <!--<a href="#" class="products_description">
+                <span>Курси</span></a>-->
             <div id="primary" class="content-area index">
                     <div id="content" class="site-content" role="main">
 

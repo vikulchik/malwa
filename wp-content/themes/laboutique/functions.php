@@ -140,6 +140,9 @@
         register_nav_menu('second',__('Second Menu', DOMAIN));
         register_nav_menus( array( 'footer-menu' => 'Footer Menu' ) );
         register_nav_menus( array( 'footer-menu-second' => 'Footer Menu Seconds' ) );
+        register_nav_menus( array( 'hover-menu' => 'Hover Menu' ) );
+        register_nav_menus( array( 'hover-menu-second' => 'Hover Menu Second' ) );
+        register_nav_menus( array( 'hover-menu-third' => 'Hover Menu Third' ) );
 
         /*
          * This theme uses a custom image size for featured images, displayed on
@@ -870,7 +873,7 @@
                         }
 
                         if (trim($slide['header_button_secondary_text']))
-                            echo '<a class="btn btn-small" title="'.esc_attr($slide['header_button_secondary_text']).'" href="'.esc_url($slide['header_button_secondary_text_url']).'">'.$slide['header_button_secondary_text'].'</a> ';
+                            echo '<a class="btn btn-small " title="'.esc_attr($slide['header_button_secondary_text']).'" href="'.esc_url($slide['header_button_secondary_text_url']).'">'.$slide['header_button_secondary_text'].'</a> ';
 
                         if (trim($slide['header_button_text']))
                             echo '<a class="btn btn-primary btn-small" title="'.esc_attr($slide['header_button_text']).'" href="'.esc_url($slide['header_button_text_url']).'">'.$slide['header_button_text'].' &nbsp; <em class="icon-chevron-right"></em></a>';

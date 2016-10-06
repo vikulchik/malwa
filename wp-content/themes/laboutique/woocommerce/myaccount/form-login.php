@@ -61,12 +61,11 @@
                         <div class="buttons">
                             <div class="pull-left">
                                 <?php wp_nonce_field('woocommerce-login');?>
+                                <span class="form-span">*Усі поля заповнюються обов'язково</span>
+                                <a href="<?php echo esc_url(wc_lostpassword_url());?>"  class="btn btn-small password-form"><?php _e('Забули пароль?','woocommerce');?></a>
                                 <button type="submit" class="btn btn-primary btn-small" name="login" value="<?php _e('Login','woocommerce');?>">
                                     <?php _e('Увійти','woocommerce');?>
                                 </button>
-
-
-                                <a href="<?php echo esc_url(wc_lostpassword_url());?>"  class="btn btn-small"><?php _e('Забули пароль?','woocommerce');?></a>
                             </div>
                         </div>		           
                     </form>		

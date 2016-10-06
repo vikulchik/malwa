@@ -19,6 +19,11 @@ get_header('shop'); ?>
     <!-- Product info -->
     <section class="product-info">
         <div class="container">
+            <?php
+            if (function_exists('woocommerce_get_template')){
+                woocommerce_get_template( 'shop/breadcrumb.php' );
+            }
+            ?>
             
             <?php while ( have_posts() ) : the_post(); ?>
                 <?php woocommerce_get_template_part( 'content', 'single-product' ); ?>

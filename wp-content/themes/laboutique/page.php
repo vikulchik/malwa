@@ -70,12 +70,17 @@ get_header(); ?>
 
 
     <div class="container">
+        <?php
+        if (function_exists('woocommerce_get_template')){
+            woocommerce_get_template( 'shop/breadcrumb.php' );
+        }
+        ?>
         <div class="row">
             <div class="span12">
                 <section class="static-page">
                     <div class="row-fluid action" >
-                        <a href="#" class="products_description">
-                            <span>Контакти</span></a>
+                        <!--<a href="#" class="products_description">
+                            <span>Контакти</span></a>-->
                         <div class="span9">
                             <div class="content">
 
@@ -105,7 +110,8 @@ get_header(); ?>
                                                                                                   
                                                         ?>
                                                             <?php if (!$title_settings){?>
-                                                            <h1 class="entry-title"><?php the_title(); ?></h1>
+                                                            <h1 class="entry-title products_description">
+                                                                <span><?php the_title(); ?></span></h1>
                                                             <?php } ?>
                                                     </header><!-- .entry-header -->
 

@@ -1156,6 +1156,22 @@ textarea {
 .entry-content {
   /*woocommerce shortcodes support*/
 }
+
+.entry-content li {
+  list-style-type: none;
+  padding-left: 25px;
+  position: relative;
+}
+.entry-content li:after {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffbacc;
+}
 .entry-content .container {
   width: auto;
 }
@@ -1524,8 +1540,8 @@ textarea {
 }
 
 .box .box-content {
-  float: right;
-  width: 360px;
+  float: none;
+  width: 100%;
 }
 .box .box-body > *:last-child,
 .box .box-content > *:last-child {
@@ -1547,6 +1563,51 @@ textarea {
   width: 210px;
 }
 
+.cart .span3, .cart .span9 {
+  float: none;
+  width: 100%;
+}
+
+.amount, .product-name h5 a {
+  font-size: 20px;
+  color: #682f3e;
+}
+
+.product-remove.text-right {
+  position: relative;
+  top: -15px;
+  left: 63%;
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.product-remove.text-right a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.product-remove.text-right a:after {
+ content: '';
+  position: absolute;
+  background: url("/wp-content/themes/laboutique/images/x.png") no-repeat 0 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+}
+
+.cart_table_item td {
+  font-weight: bold;
+}
+
+.product-price.text-right, .product-quantity.text-right, .product-subtotal.text-right {
+  padding: 50px 0;
+}
 
 .box .form-submit:before,
 .box .box-footer:before {
@@ -2017,12 +2078,7 @@ textarea {
 .styled-table thead td {
   font-weight: 400;
 }
-.shop_table tbody th,
-.styled-table tbody th,
-.shop_table tbody td,
-.styled-table tbody td {
-  border-bottom: 1px solid #f0f0f0;
-}
+
 .shop_table thead th,
 .styled-table thead th,
 .shop_table tbody th,
@@ -2032,7 +2088,7 @@ textarea {
 .shop_table tbody td,
 .styled-table tbody td {
   text-align: left;
-  padding: 10px;
+  padding: 10px;padding: 10px;
   vertical-align: top;
 }
 .shop_table thead th:first-child,
@@ -2505,7 +2561,7 @@ textarea {
   line-height: 20px;
   font-size: 11px;
   text-align: center;
-  background-color: #fc00ff;
+  background-color: #ffbacc;
   color: #ffffff;
   position: absolute;
   top: -6px;
@@ -2533,6 +2589,22 @@ nav.navigation {
     width: auto;
     float: none;
   }
+}
+
+.menu-hover {
+  position: absolute;
+  top: -99999px;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0px;
+  width: 100%;
+  height: 365px;
+  padding-top: 30px;
+  border-bottom: 1px solid;
+}
+
+#menu-main-navigation a:hover .menu-hover {
+  top: 49px;
+  left: 0;
 }
 
 nav.navigation .row  {
@@ -2619,9 +2691,81 @@ nav.navigation .row  {
 }
 .main-menu > li > a {
   padding: 15px 22px;
-  color: #606362;
+  color: #781b34;
   text-transform: uppercase;
   font-family: 'Cormorant Infant', serif;
+}
+
+.main-hover_description  {
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.main-hover_description:after {
+  position: absolute;
+  content: '';
+  top: 81px;
+  left: 1px;
+  height: 154px;
+  width: 1px;
+  background: #ffbacc;
+}
+
+
+#menu-hover-menu li,  #menu-hover-menu-second li, #menu-hover-menu-third li {
+  list-style-type: none;
+}
+
+#menu-hover-menu {
+  width: 375px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#menu-hover-menu-second, #menu-hover-menu-third {
+  width: 210px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#menu-hover-menu a, #menu-hover-menu-second a, #menu-hover-menu-third a{
+  font-size: 18px;
+  color: #000000;
+  text-transform: inherit;
+  text-decoration: none;
+  padding-left: 30px;
+  display: block;
+}
+
+#menu-hover-menu a:hover, #menu-hover-menu-second a:hover, #menu-hover-menu-third a:hover {
+  text-decoration: underline;
+}
+.menu-hover_center {
+  width: 49%;
+  margin: auto;
+  position: relative;
+}
+
+.menu-hover_center:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 100%;
+  background: #ffbacc;
+  bottom: -3px;
+  left: 1px;
+}
+.menu-hover_center:before {
+  position: absolute;
+  content: '';
+  background: #ffbacc;
+  bottom: -6px;
+  right: -1px;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
 }
 .main-menu > li:hover > a,
 .main-menu > li > a:hover {
@@ -2947,7 +3091,7 @@ nav.navigation .row  {
   -moz-background-clip: padding;
   border-radius: 0px;
   background-clip: padding-box;
-  color: #939694;
+  color: #682f3e;
   /*.active {
 		color: lighten(@black, 30%);
 	}*/
@@ -4361,7 +4505,6 @@ html[xmlns] .slides {
   line-height: 30px;
 }
 .product-info .shop_attributes th {
-  width: 1%;
   white-space: nowrap;
 }
 .product-info .shop_attributes p {
@@ -4662,9 +4805,7 @@ html[xmlns] .slides {
   font-size: 14px;
   text-decoration: none;
 }
-.product-info .product-content #product .add-to-cart .group_table tr td {
-  border-bottom: 1px solid #f0f0f0;
-}
+
 .product-info .product-content #product .add-to-cart .group_table tr:first-child td {
   padding-top: 0px;
 }
@@ -5366,15 +5507,35 @@ html[xmlns] .slides {
 .order_details .product-thumbnail,
 #order_review .product-thumbnail,
 .cart-items .product-thumbnail {
-  width: 1%;
   white-space: nowrap;
 }
 .order_details .product-thumbnail .image a,
 #order_review .product-thumbnail .image a,
 .cart-items .product-thumbnail .image a {
   display: block;
-  border: 4px solid #f0f0f0;
+  border: 1px solid #682f3e;
   position: relative;
+  width: 120px;
+  height: 125px;
+}
+
+.cart-items .product-thumbnail .image a image{
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.cart_table_item {
+  padding: 25px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 35px;
+  display: block;
+  position: relative;
+}
+
+.cart_table_item td {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
 }
 .order_details .product-thumbnail .image a:before,
 #order_review .product-thumbnail .image a:before,
@@ -5436,8 +5597,9 @@ html[xmlns] .slides {
 .order_details .col_qty input[type="text"],
 #order_review .col_qty input[type="text"],
 .cart-items .col_qty input[type="text"] {
-  width: 40px;
-  text-align: right;
+  width: 20px;
+  text-align: center;
+  box-shadow: none!important;
 }
 .order_details .product-quantity input[type="button"],
 #order_review .product-quantity input[type="button"],
@@ -5505,7 +5667,6 @@ html[xmlns] .slides {
     position: relative;
     overflow: hidden;
     height: auto;
-    border-bottom: 1px solid #f0f0f0;
   }
   .order_details tbody tr td.product-thumbnail,
   #order_review tbody tr td.product-thumbnail,
@@ -5515,7 +5676,6 @@ html[xmlns] .slides {
   .order_details tbody tr td:first-child,
   #order_review tbody tr td:first-child,
   .cart-items tbody tr td:first-child {
-    padding: 10px;
     padding-left: calc(50% + 10px);
   }
   .order_details tbody tr td.text-right,
@@ -5532,7 +5692,6 @@ html[xmlns] .slides {
     position: absolute;
     left: 0px;
     top: 0px;
-    padding: 10px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5587,7 +5746,6 @@ html[xmlns] .slides {
 }
 .order_details .product-total,
 #order_review .product-total {
-  width: 1%;
   white-space: nowrap;
   text-align: right;
 }
@@ -5849,6 +6007,10 @@ html[xmlns] .slides {
   margin-bottom: 0;
   width: 100%;
 }
+
+.cart-items {
+  position: relative;
+}
 .cart .coupon .input-append input[type="text"],
 .cart .coupon .input-append button {
   -webkit-box-sizing: border-box;
@@ -5957,7 +6119,6 @@ html[xmlns] .slides {
 .static-page .box-header {
   margin: 0 -20px;
   padding: 0 20px;
-  border-bottom: 1px solid #f0f0f0;
   padding-bottom: 20px;
   background-color: #ffffff;
 }
@@ -5977,7 +6138,6 @@ html[xmlns] .slides {
 }
 .static-page .box-image {
   margin: -20px -20px 20px;
-  border-bottom: 1px solid #f0f0f0;
 }
 .static-page .box-image a,
 .static-page .box-image img {
@@ -6675,7 +6835,6 @@ html[xmlns] .slides {
   font-weight: 700;
   padding: 20px;
   margin: -20px -20px 20px;
-  border-bottom: 1px solid #f0f0f0;
 }
 .widget_search label,
 .widget_product_search label {
@@ -6862,7 +7021,6 @@ html[xmlns] .slides {
 .widget_search label span,
 .widget_product_search label {
   display: block;
-  border-bottom: 1px solid #f0f0f0;
   padding: 20px;
   margin: -20px -20px 20px;
 }
@@ -7120,7 +7278,6 @@ html[xmlns] .slides {
   margin: -20px;
 }
 .widget.widget_recent_comments ul li {
-  border-bottom: 1px solid #f0f0f0;
   padding: 15px 20px;
   /*zoom: 1;*/
   display: block;
@@ -8202,7 +8359,7 @@ html[xmlns] .slides {
   font-family: 'Cormorant Infant', serif;
   color: #781b34;
   display: block;
-  padding: 20px 20px 30px 70px;
+  padding: 45px 20px 30px 70px;
   line-height: 1;
   position: relative;
   text-decoration: none;
@@ -8215,7 +8372,7 @@ html[xmlns] .slides {
   width: 79px;
   height: 88px;
   background: url("/wp-content/themes/laboutique/images/product.png");
-  top: -28px;
+  top: 0;
   left: 45px;
 }
 
@@ -8226,7 +8383,7 @@ html[xmlns] .slides {
   display: block;
 }
 
-.products_description span:after {
+.products .products_description span:after {
   position: absolute;
   content: '';
   display: block;
@@ -8569,8 +8726,92 @@ html[xmlns] .slides {
   background: #ffbacc;
   border-radius: 35px;
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: none!important;
   padding: 15px 20px;
   width: 160px;
   box-sizing: border-box;
+}
+
+.zoomContainer {
+  border: 1px solid #d4d4d4;
+  padding: 15px;
+}
+
+.form-text {
+  border-radius: 25px;
+}
+
+.pull-left button, .pull-left .btn .btn-primary .btn-small {
+  background: #ffbacc;
+}
+ 
+.pull-left .btn.btn-primary.btn-small {
+  float: right;
+}
+
+.pull-left  .password-form {
+  float: right;
+  background: #ffffff;
+  color: #000000;
+  text-transform: inherit;
+  box-shadow: none;
+  font-weight: normal;
+  text-decoration: underline;
+  text-align: right;
+  padding: 0 16px 0 60px;
+  margin-bottom: 15px;
+}
+
+.form-span {
+  font-size: 14px;
+  color: #b4b4b4;
+  margin-bottom: 15px;
+}
+
+.text-left.product-thumbnail {
+  padding: 0;
+  width: 15%;
+}
+
+.product-name.text-left {
+  padding: 25px 0;
+}
+
+.quantity {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.pull-left .btn {
+  background: none;
+  color: #000000;
+  text-transform: inherit;
+  font-weight: normal;
+  box-shadow: none;
+  padding-left: 0;
+  }
+
+.box .box-footer {
+  width: 100%;
+}
+
+.pull-right {
+  width: 218px;
+}
+
+.pull-right .btn {
+  padding-left: 50px;
+}
+
+.cart_totals  {
+  padding: 15px 32px;
+  background: #f1f1f1;
+}
+
+.cart_totals   tr {
+  background: #f1f1f1;
+}
+
+.hgroup.title, .order-total {
+  display: none;
 }

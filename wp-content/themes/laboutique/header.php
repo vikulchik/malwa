@@ -255,6 +255,29 @@
                                 'item_type'	=> 'li'
                             )),*/
                        ));?>
+                            <div class="menu-hover">
+                                <div class="menu-hover_center">
+                                    <h2 class="main-hover_description">Все для нігтів</h2>
+                                    <?php wp_nav_menu( array(
+                                        'theme_location' => 'hover-menu',
+                                        'container'=>false,
+                                        'depth'=>'1',
+                                        'echo'=>'1'));
+                                    ?>
+                                    <?php wp_nav_menu( array(
+                                        'theme_location' => 'hover-menu-second',
+                                        'container'=>false,
+                                        'depth'=>'1',
+                                        'echo'=>'1'));
+                                    ?>
+                                    <?php wp_nav_menu( array(
+                                        'theme_location' => 'hover-menu-third',
+                                        'container'=>false,
+                                        'depth'=>'1',
+                                        'echo'=>'1'));
+                                    ?>
+                                </div>
+                            </div>
                         </div>
 						</div>
 

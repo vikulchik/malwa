@@ -17,6 +17,10 @@ global $woocommerce;
 
 <!-- Cart container -->
                 <section class="cart">
+                    <header class="entry-header">
+                        <a href="#" class="products_description">
+                            <span><?php the_title(); ?></span></a>
+                    </header>
 
 
 
@@ -37,10 +41,10 @@ global $woocommerce;
                                      <?php do_action( 'woocommerce_before_cart' ); ?>
                                     <form action="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" method="post">
                                         
-                                        <div class="box-header">
+                                        <!--<div class="box-header">
                                             <h3>Ваш кошик</h3>
                                             <h5><?php echo sprintf(__('У вас %s одиниць в кошику', DOMAIN),'<strong>'.$woocommerce->cart->cart_contents_count.'</strong>');?></h5>
-                                        </div>
+                                        </div>-->
 
                                         <div class="box-content">
                                             <div class="cart-items">
@@ -52,17 +56,7 @@ global $woocommerce;
                                                         <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
                                                         <table class="shop_table cart styled-table" cellspacing="0">
-                                                                <thead>
-                                                                        <tr>
-                                                                                
-                                                                                <th class="product-thumbnail text-left"><?php _e( 'Товари', 'woocommerce' ); ?></th>
-                                                                                <th class="product-name text-left"></th>
-                                                                                <th class="product-remove text-right">&nbsp;</th>
-                                                                                <th class="product-price text-right"><?php _e( 'Ціна', 'woocommerce' ); ?></th>
-                                                                                <th class="product-quantity text-right"><?php _e( 'Кількість', 'woocommerce' ); ?></th>
-                                                                                <th class="product-subtotal text-right"><?php _e( 'Підсумок', 'woocommerce' ); ?></th>
-                                                                        </tr>
-                                                                </thead>
+
                                                                 <tbody>
                                                                         <?php do_action( 'woocommerce_before_cart_contents' ); ?>
 
@@ -108,11 +102,11 @@ global $woocommerce;
                                                                                                         
                                                                                                         <!-- Remove from cart link -->
                                                                                                         <td data-title="<?php _e( 'Видалити', 'woocommerce' ); ?>" class="product-remove text-right">
-                                                                                                                <a href="<?php echo esc_url( $woocommerce->cart->get_remove_url( $cart_item_key ) )?>" title="__( 'Remove this item', 'woocommerce' )"><i class="icon-trash icon-large"></i></a>                                                                                                                
+                                                                                                                <a href="<?php echo esc_url( $woocommerce->cart->get_remove_url( $cart_item_key ) )?>" title="__( 'Remove this item', 'woocommerce' )"></a>
                                                                                                         </td>
 
                                                                                                         <!-- Product price -->
-                                                                                                        <td data-title="<?php _e( 'Ціна', 'woocommerce' ); ?>" class="product-price text-right">
+                                                                                                        <td data-title="<?php _e( 'Ціна', 'woocommerce' ); ?>" class="product-price text-right">Ціна:
                                                                                                                 <?php
                                                                                                                         $product_price = get_option('woocommerce_tax_display_cart') == 'excl' ? $_product->get_price_excluding_tax() : $_product->get_price_including_tax();
 
@@ -121,7 +115,7 @@ global $woocommerce;
                                                                                                         </td>
 
                                                                                                         <!-- Quantity inputs -->
-                                                                                                        <td data-title="<?php _e( 'Кількість', 'woocommerce' ); ?>" class="product-quantity text-right">
+                                                                                                        <td data-title="<?php _e( 'Кількість', 'woocommerce' ); ?>" class="product-quantity text-right">Кількість:
                                                                                                                 <?php
                                                                                                                         if ( $_product->is_sold_individually() ) {
                                                                                                                                 $product_quantity = sprintf( '1 <input type="hidden" name="cart[%s][qty]" value="1" />', $cart_item_key );
@@ -139,7 +133,7 @@ global $woocommerce;
                                                                                                         </td>
 
                                                                                                         <!-- Product subtotal -->
-                                                                                                        <td data-title="<?php _e( 'Підсумок', 'woocommerce' ); ?>" class="product-subtotal text-right">
+                                                                                                        <td data-title="<?php _e( 'Підсумок', 'woocommerce' ); ?>" class="product-subtotal text-right">Загальна ціна:
                                                                                                                 <?php
                                                                                                                         echo apply_filters( 'woocommerce_cart_item_subtotal', $woocommerce->cart->get_product_subtotal( $_product, $values['quantity'] ), $values, $cart_item_key );
                                                                                                                 ?>
@@ -164,6 +158,44 @@ global $woocommerce;
                                                 
                                             </div>
                                         </div>
+                                        <div class="span3">
+
+
+                                            <!-- Cart details -->
+                                            <?php woocommerce_cart_totals();?>
+
+                                            <!-- End class="cart-details" -->
+
+
+
+                                            <?php if ( $woocommerce->cart->coupons_enabled() ) { ?>
+                                                <div class="coupon">
+                                                    <div class="box">
+                                                        <div class="hgroup title">
+                                                            <h3><?php _e( 'Coupon', 'woocommerce' ); ?></h3>
+                                                            <h5><?php echo __('Enter your coupon here to redeem', DOMAIN); ?></h5>
+                                                        </div>
+
+                                                        <form action="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" method="post">
+
+
+                                                            <label for="coupon_code"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label>
+                                                            <div class="input-append">
+                                                                <input name="coupon_code" class="input-text" type="text" id="coupon_code" value="" />
+                                                                <input type="submit" class="button btn" name="apply_coupon" value="<?php _e( 'Go', 'woocommerce' ); ?>" />
+
+                                                            </div>
+                                                            <?php do_action('woocommerce_cart_coupon'); ?>
+
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            <?php } ?>
+
+
+
+                                        </div>
 
                                         <div class="box-footer actions">
                                             
@@ -172,13 +204,12 @@ global $woocommerce;
 
                                         <div class="pull-left">
 	
-                                            <input type="button" class="btn" value="<?php _e( 'Продовжити покупки', 'woocommerce' ); ?>" />
+                                            <input type="button" class="btn" value="<?php _e( 'Повернутися до купівлі', 'woocommerce' ); ?>" />
                                         </div>
 
                                         <div class="pull-right">
                                             
-                                            <input type="submit" class="button btn  mm20" name="update_cart" value="<?php _e( 'Оновити кошик', 'woocommerce' ); ?>" /> 
-                                            <input type="submit" class="checkout-button button alt btn btn-primary  mm20" name="proceed" value="<?php _e( 'Перейти до розрахунку', 'woocommerce' ); ?>" />
+                                            <input type="submit" class="checkout-button button alt btn btn-primary  mm20" name="proceed" value="<?php _e( 'Опрацювати замовлення', 'woocommerce' ); ?>" />
                                         </div>
 
 				<?php do_action('woocommerce_proceed_to_checkout'); ?>
@@ -199,44 +230,7 @@ global $woocommerce;
                                 
                             </div>
 
-                            <div class="span3">
-                                
-                                
-                                <!-- Cart details -->
-                                <?php woocommerce_cart_totals();?>
-                                
-                                <!-- End class="cart-details" -->
-                                
-                                
-                                
-                                <?php if ( $woocommerce->cart->coupons_enabled() ) { ?>
-                                <div class="coupon">
-                                    <div class="box">
-                                        <div class="hgroup title">
-                                            <h3><?php _e( 'Coupon', 'woocommerce' ); ?></h3>
-                                            <h5><?php echo __('Enter your coupon here to redeem', DOMAIN); ?></h5>
-                                        </div>
-                                        
-                                        <form action="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" method="post">
-                                        
-                                   
-                                           <label for="coupon_code"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label> 
-                                           <div class="input-append">
-                                            <input name="coupon_code" class="input-text" type="text" id="coupon_code" value="" /> 
-                                            <input type="submit" class="button btn" name="apply_coupon" value="<?php _e( 'Go', 'woocommerce' ); ?>" />
 
-                                           </div>
-                                           <?php do_action('woocommerce_cart_coupon'); ?>
-
-                                   
-                                        </form>
-                                    </div>
-                                </div>
-                               <?php } ?>
-
-                                
-                                
-                            </div>
 
                         </div>
                     </div>	

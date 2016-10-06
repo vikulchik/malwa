@@ -237,7 +237,7 @@ function vgb_get_sign_pg($opts)
     //And output the page!
    ?>
    <div id="gbSignWrap" class="page-nav">
-    <form action="<?php echo get_option("siteurl")?>/wp-comments-post.php" method="post" id="commentform">
+    <form action="<?php echo get_option("siteurl")?>/wp-comments-post.php" method="post" id="commentform" style="width: 50%">
 
 <hr>
      <?php if( $opts['disallowAnon'] && !$user->ID ) : 
@@ -248,8 +248,8 @@ function vgb_get_sign_pg($opts)
 
         <?php _e('*Ваше ім"я', WPVGB_DOMAIN)?>:&nbsp;&nbsp;&nbsp;
 
-        <?php if($user->ID):?> <input type="text" name="author" id="author" value="<?php echo $user->display_name?>" disabled="disabled" size="30" maxlength="40" />
-        <?php else:         ?> <input type="text" name="author" id="author" value="<?php echo $commenter['comment_author']?>" size="30" maxlength="40" />
+        <?php if($user->ID):?> <input type="text" name="author" id="author" value=" <?php echo $user->display_name?>" disabled="disabled" size="30" maxlength="40" class="form-text" />
+        <?php else:         ?> <input type="text" name="author" id="author" value="<?php echo $commenter['comment_author']?>" size="30" maxlength="40" class="form-text" style="border-radius: 25px; float: right;"/>
         <?php endif; ?>
         <?php if(!$opts['disallowAnon']) _e('', WPVGB_DOMAIN); ?><br /><br />
 
@@ -257,7 +257,7 @@ function vgb_get_sign_pg($opts)
         <?php _e('*Email', WPVGB_DOMAIN)?>:&nbsp;&nbsp;&nbsp;
 
         <?php if($user->ID):?> <input type="text" name="email" id="email" value="<?php echo $user->user_email?>" disabled="disabled" size="30" maxlength="40" />
-        <?php else:         ?> <input type="text" name="email" id="email" value="<?php echo $commenter['comment_author_email']?>" size="30" maxlength="40" />
+        <?php else:         ?> <input type="text" name="email" id="email" value="<?php echo $commenter['comment_author_email']?>" size="30" maxlength="40" class="form-text" style="border-radius: 25px; float: right;"/>
         <?php endif; ?>
         <?php if(!$opts['disallowAnon']) _e('', WPVGB_DOMAIN); ?><br /><br />
 
@@ -265,7 +265,7 @@ function vgb_get_sign_pg($opts)
         <?php _e('Homepage', WPVGB_DOMAIN)?>:&nbsp;&nbsp;&nbsp;
 
         <?php if($user->ID):?> <input type="text" name="url" id="url" value="<?php echo $user->user_url?>" disabled="disabled" size="30" />
-        <?php else:         ?> <input type="text" name="url" id="url" value="<?php echo esc_url($commenter['comment_author_url'])?>" size="30" />
+        <?php else:         ?> <input type="text" name="url" id="url" value="<?php echo esc_url($commenter['comment_author_url'])?>" size="30" class="form-text" style="border-radius: 25px; float: right;"/>
         <?php endif; ?>
         <?php if(!$opts['disallowAnon']) _e('', WPVGB_DOMAIN); ?>
 
@@ -286,7 +286,7 @@ function vgb_get_sign_pg($opts)
      <!-- Text section -->
      <div id="gbSignText">
        <?php _e('*Ваш відгук', WPVGB_DOMAIN)?>:<br />
-       <textarea name="comment" id="comment" rows="12" cols="45" style="width: 100%"></textarea><br /><br />
+       <textarea name="comment" id="comment" rows="12" cols="45" style="width: 100%; border-radius: 25px"></textarea><br /><br />
        <input name="submit" type="submit" id="submit" value="<?php _e('Надіслати', WPVGB_DOMAIN)?>" />
        <input type="hidden" name="comment_post_ID" value="<?php echo $GLOBALS['id']?>" />
        <input type='hidden' name='redirect_to' value='<?php echo htmlspecialchars(get_permalink()) ?>' />
