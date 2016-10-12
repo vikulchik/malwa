@@ -5,23 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e4ef5c-d276-4b2e-81d0-257e46818106" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-bolditalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-bolditalic-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-lightitalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-lightitalic-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-medium-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-medium-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-roman-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-roman-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-thin-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-thin-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-thinitalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-thinitalic-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/arrow-buy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/cart-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/logo-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/white-soc-fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/white-soc-inst.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/white-soc-vk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/04/white-soc-fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/04/white-soc-inst.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/04/white-soc-vk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/10/logo-2-1476099107331.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/10/logo-2-150x76-1476099107385.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/10/logo-2-150x76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/10/logo-2-160x76-1476099107375.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/10/logo-2-160x76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/10/logo-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-black-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-blackitalic-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-bold-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-bolditalic-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-italic-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-light-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-lightitalic-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-medium-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-roman-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-thin-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-thinitalic-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/helveticaneuecyr-ultralight-demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/images/arrow.png" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/images/product.png" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/images/product.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/common.css" afterPath="$PROJECT_DIR$/wp-admin/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/debug.log" afterPath="$PROJECT_DIR$/wp-content/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/rizzi-guestbook/_output_guestbook.php" afterPath="$PROJECT_DIR$/wp-content/plugins/rizzi-guestbook/_output_guestbook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/tabs/description.php" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/tabs/description.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/content.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/custom_color.css" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/custom_color.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/wetasphalt.css" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/wetasphalt.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/css/custom.css" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/font-awesome.css" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/header-new.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/header-new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/framework/woocommerce.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/framework/woocommerce.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/page-grid-blog.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/page-grid-blog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart-totals.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart-totals.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/myaccount/form-login.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/myaccount/form-login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product/tabs/tabs.php" afterPath="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product/tabs/tabs.php" />
     </list>
     <ignored path="malwa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,40 +93,8 @@
       <file leaf-file-name="custom_color.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/custom_color.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="8814" column="27" selection-start-line="8814" selection-start-column="27" selection-end-line="8814" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="413" column="0" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="206" column="117" selection-start-line="206" selection-start-column="117" selection-end-line="206" selection-end-column="117" />
-              <folding>
-                <element signature="e#1645#14742#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/image.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="48" selection-end-column="25" />
+            <state relative-caret-position="307">
+              <caret line="8948" column="17" selection-start-line="8948" selection-start-column="17" selection-end-line="8948" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -88,38 +103,44 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1629">
-              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+            <state relative-caret-position="1032">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/custom.css">
+      <file leaf-file-name="archive-product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/archive-product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5826" column="20" selection-start-line="5826" selection-start-column="20" selection-end-line="5826" selection-end-column="20" />
+            <state relative-caret-position="888">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/functions.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="875" column="58" selection-start-line="875" selection-start-column="58" selection-end-line="875" selection-end-column="58" />
+            <state relative-caret-position="5256">
+              <caret line="219" column="67" selection-start-line="219" selection-start-column="67" selection-end-line="219" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
-                <marker date="1475754606000" expanded="true" signature="2073:2125" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="2105:2125" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="2309:2327" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="31079:31119" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="31258:31604" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="31438:31604" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="31492:31604" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="31546:31604" placeholder="..." />
-                <marker date="1475754606000" expanded="true" signature="33932:34077" placeholder="..." />
+                <marker date="1476272093000" expanded="true" signature="1117:1129" placeholder="..." />
+                <marker date="1476272093000" expanded="true" signature="2420:2820" placeholder="..." />
+                <marker date="1476272093000" expanded="true" signature="2457:2801" placeholder="..." />
+                <marker date="1476272093000" expanded="true" signature="2505:2778" placeholder="..." />
+                <marker date="1476272093000" expanded="true" signature="2557:2751" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -128,18 +149,28 @@
       <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="87" column="50" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+            <state relative-caret-position="1440">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wetasphalt.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/wetasphalt.css">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5853" column="20" selection-start-line="5853" selection-start-column="20" selection-end-line="5853" selection-end-column="20" />
+            <state relative-caret-position="600">
+              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-grid-blog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/page-grid-blog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -157,32 +188,38 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/css/less/core.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/css/less/colors.less" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/framework/woocommerce.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/checkout/thankyou.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/content.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/shop/form-login.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/shop/breadcrumb.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/page-home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/header-new.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/page.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/grouped.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/archive-product.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/header.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-price-filter.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/yith-woocommerce-ajax-navigation/widgets/class.yith-wcan-reset-navigation-widget.php" />
         <option value="$PROJECT_DIR$/wp-admin/css/common.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/wetasphalt.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/css/custom.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/rizzi-guestbook/_output_guestbook.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/myaccount/form-login.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart-totals.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/tabs/description.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/css/custom.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/font-awesome.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/myaccount/form-login.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/framework/woocommerce.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product/tabs/tabs.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/page-grid-blog.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/laboutique/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/custom_color.css" />
       </list>
     </option>
@@ -226,7 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,12 +357,43 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="woocommerce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="malva " />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="malva " />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboutique" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="woocommerce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -340,6 +407,13 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/uploads/2016/04" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -411,7 +485,11 @@
       <workItem from="1474982892681" duration="477000" />
       <workItem from="1475077167044" duration="5179000" />
       <workItem from="1475496155562" duration="10452000" />
-      <workItem from="1475747599096" duration="14607000" />
+      <workItem from="1475747599096" duration="14649000" />
+      <workItem from="1475836093535" duration="14460000" />
+      <workItem from="1476099576108" duration="13090000" />
+      <workItem from="1476259524563" duration="26506000" />
+      <workItem from="1476293994418" duration="993000" />
     </task>
     <task id="LOCAL-00001" summary="Contacts were changed.">
       <created>1473863990233</created>
@@ -455,22 +533,28 @@
       <option name="project" value="LOCAL" />
       <updated>1474634847821</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add mark-slider.">
+      <created>1475773041679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1475773041679</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135813000" />
+    <option name="totallyTimeSpent" value="190904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="988" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="988" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17838125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30138445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47104678" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37639198" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29064587" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32680723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,6 +566,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3872768" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -529,448 +614,372 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/images/slider.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/widgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1229">
-          <caret line="810" column="42" selection-start-line="810" selection-start-column="42" selection-end-line="810" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/images/visa.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/category.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product/review.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/myaccount/form-lost-password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="46" column="62" selection-start-line="45" selection-start-column="36" selection-end-line="46" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/loop/price.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/shipping-calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/page-TestNew.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/order/order-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="411" column="5" selection-start-line="411" selection-start-column="5" selection-end-line="411" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/languages/theme+laboutique.pot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="1621" column="28" selection-start-line="1621" selection-start-column="28" selection-end-line="1621" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/js_composer/composer/shortcodes_templates/vc_button.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="116" selection-start-line="23" selection-start-column="116" selection-end-line="23" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/js_composer/composer/lib/layouts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8136">
-          <caret line="344" column="35" selection-start-line="344" selection-start-column="35" selection-end-line="344" selection-end-column="35" />
-          <folding>
-            <marker date="1473834686000" expanded="true" signature="4135:4489" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="4139:4484" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="4518:4574" placeholder="..." />
-            <marker date="1473834686000" expanded="false" signature="8312:8331" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="8332:8714" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="9723:11886" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="9799:9855" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="9934:10800" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="10878:11871" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="13242:13916" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="13453:13897" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="13548:13803" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="13579:13773" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="14111:14392" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="14148:14358" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="14491:14777" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="14526:14743" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="14878:15350" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="14935:15316" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="15167:15278" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="15478:15793" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="15513:15759" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="15933:16081" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="16194:16365" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="17907:19836" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="17943:18483" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="17981:18472" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="18311:18459" placeholder="..." />
-            <marker date="1473834686000" expanded="false" signature="18531:18545" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="18546:18678" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="18800:19825" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="18917:19451" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="18930:19436" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="19486:19812" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="19499:19682" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="19695:19797" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="19722:19783" placeholder="..." />
-            <marker date="1473834686000" expanded="false" signature="19882:19896" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/framework/js_composer/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1560">
-          <caret line="256" column="56" selection-start-line="256" selection-start-column="56" selection-end-line="256" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/images/slider-mark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/framework/js_composer/templates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/shop/form-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/shop/breadcrumb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/alizarin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="1144" column="1" selection-start-line="1144" selection-start-column="1" selection-end-line="1144" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/header-new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="192" column="8" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/archive-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="70" column="97" selection-start-line="70" selection-start-column="97" selection-end-line="70" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/grouped.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="73" column="22" selection-start-line="68" selection-start-column="20" selection-end-line="73" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6360">
-          <caret line="273" column="74" selection-start-line="273" selection-start-column="74" selection-end-line="273" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/js_composer/composer/lib/shortcodes/raw_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9720">
-          <caret line="405" column="18" selection-start-line="405" selection-start-column="18" selection-end-line="405" selection-end-column="18" />
-          <folding>
-            <marker date="1473834686000" expanded="true" signature="8852:8866" placeholder="..." />
-            <marker date="1473834686000" expanded="true" signature="17645:17716" placeholder="SELECT post_... ${$wpdb-&gt;postmeta}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/js_composer/composer/shortcodes_templates/post_block/_item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-price-filter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <marker date="1475751520000" expanded="true" signature="3042:3305" placeholder="SELECT min(m... " />
-            <marker date="1475751520000" expanded="true" signature="3411:3624" placeholder="SELECT max(m... " />
-            <marker date="1475751520000" expanded="true" signature="3752:4301" placeholder="SELECT min(m... " />
-            <marker date="1475751520000" expanded="true" signature="4407:4906" placeholder="SELECT max(m... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/pumpkin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/peterriver.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/editor-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/amethyst.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/yith-woocommerce-ajax-navigation/widgets/class.yith-wcan-reset-navigation-widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="783" column="33" selection-start-line="783" selection-start-column="33" selection-end-line="783" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/rizzi-guestbook/_output_guestbook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="288" column="104" selection-start-line="288" selection-start-column="104" selection-end-line="288" selection-end-column="104" />
-          <folding>
-            <element signature="e#8004#8022#0#HTML" expanded="true" />
-            <element signature="e#8709#8751#0#HTML" expanded="true" />
-            <element signature="e#9255#9297#0#HTML" expanded="true" />
-            <element signature="e#9800#9842#0#HTML" expanded="true" />
-            <element signature="e#10771#10811#0#HTML" expanded="true" />
-            <marker date="1475753398000" expanded="true" signature="4600:4617" placeholder="..." />
-            <marker date="1475753398000" expanded="true" signature="5682:5795" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/wetasphalt.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5853" column="20" selection-start-line="5853" selection-start-column="20" selection-end-line="5853" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="1752">
+          <caret line="81" column="25" selection-start-line="77" selection-start-column="20" selection-end-line="81" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5826" column="20" selection-start-line="5826" selection-start-column="20" selection-end-line="5826" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="197">
+          <caret line="2313" column="27" selection-start-line="2313" selection-start-column="27" selection-end-line="2313" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="875" column="58" selection-start-line="875" selection-start-column="58" selection-end-line="875" selection-end-column="58" />
-          <folding>
-            <marker date="1475754606000" expanded="true" signature="2073:2125" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="2105:2125" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="2309:2327" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="31079:31119" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="31258:31604" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="31438:31604" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="31492:31604" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="31546:31604" placeholder="..." />
-            <marker date="1475754606000" expanded="true" signature="33932:34077" placeholder="..." />
-          </folding>
+        <state relative-caret-position="364">
+          <caret line="71" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/myaccount/form-login.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="63" column="54" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="372">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/external.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="288">
+          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/myaccount/form-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="35" column="121" selection-start-line="35" selection-start-column="121" selection-end-line="35" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="151" column="37" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/cart/shipping-calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="965">
+          <caret line="827" column="21" selection-start-line="827" selection-start-column="21" selection-end-line="827" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5544">
+          <caret line="237" column="18" selection-start-line="237" selection-start-column="18" selection-end-line="237" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/variable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="99" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/content-single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/grouped.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="687" column="32" selection-start-line="687" selection-start-column="32" selection-end-line="687" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/framework/woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="90" column="151" selection-start-line="90" selection-start-column="125" selection-end-line="90" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-product-external.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3739">
+          <caret line="532" column="90" selection-start-line="532" selection-start-column="90" selection-end-line="532" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product/tabs/tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/class-wp-comments-list-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="558" column="24" selection-start-line="558" selection-start-column="24" selection-end-line="558" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/revision.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="221" column="27" selection-start-line="221" selection-start-column="27" selection-end-line="221" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/meta-box/inc/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="232" column="26" selection-start-line="232" selection-start-column="26" selection-end-line="232" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/single-product-reviews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="59" column="166" selection-start-line="59" selection-start-column="166" selection-end-line="59" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-product-variable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="461" column="32" selection-start-line="461" selection-start-column="32" selection-end-line="461" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-coupon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="126" column="135" selection-start-line="126" selection-start-column="135" selection-end-line="126" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/regenerate-thumbnails/regenerate-thumbnails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="387" column="169" selection-start-line="387" selection-start-column="169" selection-end-line="387" selection-end-column="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/nav-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="406" column="43" selection-start-line="406" selection-start-column="43" selection-end-line="406" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="28" column="79" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/images/vk.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="239" column="12" selection-start-line="239" selection-start-column="12" selection-end-line="239" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="395" column="57" selection-start-line="395" selection-start-column="57" selection-end-line="395" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/checkout/thankyou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/shop/breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/archive-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5256">
+          <caret line="219" column="67" selection-start-line="219" selection-start-column="67" selection-end-line="219" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/wrapper-start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <marker date="1476272093000" expanded="true" signature="1117:1129" placeholder="..." />
+            <marker date="1476272093000" expanded="true" signature="2420:2820" placeholder="..." />
+            <marker date="1476272093000" expanded="true" signature="2457:2801" placeholder="..." />
+            <marker date="1476272093000" expanded="true" signature="2505:2778" placeholder="..." />
+            <marker date="1476272093000" expanded="true" signature="2557:2751" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="87" column="50" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+        <state relative-caret-position="1440">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/content.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/page-grid-blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1629">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="48" selection-end-column="25" />
+        <state relative-caret-position="864">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="38" selection-start-line="23" selection-start-column="16" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="600">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/images/x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/fonts/font-awesome.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="413" column="0" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
+        <state relative-caret-position="1032">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/woocommerce/cart/cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="206" column="117" selection-start-line="206" selection-start-column="117" selection-end-line="206" selection-end-column="117" />
-          <folding>
-            <element signature="e#1645#14742#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/laboutique/css/color-schemes/custom_color.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="8814" column="27" selection-start-line="8814" selection-start-column="27" selection-end-line="8814" selection-end-column="27" />
+        <state relative-caret-position="307">
+          <caret line="8948" column="17" selection-start-line="8948" selection-start-column="17" selection-end-line="8948" selection-end-column="17" />
           <folding />
         </state>
       </provider>

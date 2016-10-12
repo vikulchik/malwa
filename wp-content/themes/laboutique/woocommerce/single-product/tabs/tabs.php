@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 $tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
 ?>
-        <ul class="nav nav-tabs">
+        <!--<ul class="nav nav-tabs">
             <li class="active">
                 <a href="#product" data-toggle="tab">
                     <i class="icon-reorder icon-large"></i>
@@ -69,8 +69,7 @@ $tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
         <?php } ?>
     <?php } ?>
-        </ul>
-        <div class="tab-content">
+        </ul>-->
             <div class="tab-pane active" id="product">
                 <div class="details">
                     <?php woocommerce_template_single_title();?>
@@ -80,36 +79,43 @@ $tabs = apply_filters( 'woocommerce_product_tabs', array() );
                 </div>
                 
                 <?php woocommerce_template_single_excerpt(); ?>
+                <?php if (trim(theme_option('shop_shipping'))){?>
+                    <!-- Shipping tab -->
+                    <div class="tab-pane" id="shipping">
+                        <?php echo theme_option('shop_shipping');?>
+                    </div>
+                    <!-- End id="shipping" -->
+                <?php } ?>
+
+                <?php if (trim(theme_option('shop_return'))){?>
+                    <!-- Returns tab -->
+                    <div class="tab-pane" id="returns">
+                        <?php echo nl2br(theme_option('shop_return'));?>
+                    </div>
+                <?php } ?>
+                <!-- End id="returns" -->
+                <?php if ( ! empty( $tabs ) ) { ?>
+                    <?php foreach ( $tabs as $key => $tab ) {?>
+                        <?php if (($key=='reviews' && !theme_option('shop_disable_reviews'))|| $key!='reviews'){?>
+                            <div class="tab-pane entry-content" id="tab-<?php echo $key ?>">
+                                <?php call_user_func( $tab['callback'], $key, $tab ) ?>
+                            </div>
+                        <?php } ?>
+
+                    <?php } ?>
+                <?php } ?>
                 
                 <div class="add-to-cart">
                     <?php woocommerce_template_single_add_to_cart(); ?>
                 </div>
+                <span class="social-span">Поділитися:</span>
+                <ul class="social">
+                    <li class="social-item fb fb-white"><a href="https://www.facebook.com/malwalviv/"></a></li>
+                    <li class="social-item vk vk-white"><a href="http://vk.com/malwalviv"></a></li>
+                    <li class="social-item ins inst-white"><a href="https://www.instagram.com/malva_lviv/"></a></li>
+                </ul>
             </div>
-            <?php if (trim(theme_option('shop_shipping'))){?>
-            <!-- Shipping tab -->
-            <div class="tab-pane" id="shipping">                                    
-                <?php echo theme_option('shop_shipping');?>
-            </div>
-            <!-- End id="shipping" -->
-            <?php } ?>
-            
-            <?php if (trim(theme_option('shop_return'))){?>
-            <!-- Returns tab -->
-            <div class="tab-pane" id="returns">
-                <?php echo nl2br(theme_option('shop_return'));?>
-            </div>
-            <?php } ?>
-            <!-- End id="returns" -->
-            <?php if ( ! empty( $tabs ) ) { ?>
-        <?php foreach ( $tabs as $key => $tab ) {?>
-            <?php if (($key=='reviews' && !theme_option('shop_disable_reviews'))|| $key!='reviews'){?>
-                <div class="tab-pane entry-content" id="tab-<?php echo $key ?>">
-                        <?php call_user_func( $tab['callback'], $key, $tab ) ?>
-                </div>
-            <?php } ?>
 
-            <?php } ?>
-        <?php } ?>
-        </div>
+
         
 

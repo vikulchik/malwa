@@ -44,8 +44,6 @@ if (DEBUG_INFO) {
 
                     <?php if ( $list_of_posts->have_posts() ) : ?>
                         <section class="post-list" id="isotope_content">
-
-
                             <?php /* The loop */ ?>
                             <?php while ( $list_of_posts->have_posts() ) : $list_of_posts->the_post(); ?>
                                 <article class="post post-grid item">

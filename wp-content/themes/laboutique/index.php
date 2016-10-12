@@ -17,17 +17,26 @@ if (DEBUG_INFO) {
 	echo "\n<!-- FILE: /index.php ================================================================= -->\n";
 }
 get_header(); ?>
-<?php if ( have_posts() ) : ?>
+<!--<?php if ( have_posts() ) : ?>
+    <?php if (!$title_settings){?>
+        <h1 class="entry-title products_description">
+            <span><?php the_title(); ?></span></h1>
+    <?php } ?>-->
+   <!-- <?php
+    if (function_exists('woocommerce_get_template')){
+        woocommerce_get_template( 'shop/breadcrumb.php' );
+    }
+    ?>-->
 <div class="container">
     <div class="row-fluid action">
         <div class="span9">
-            <!--<a href="#" class="products_description">
-                <span>Курси</span></a>-->
             <div id="primary" class="content-area index">
                     <div id="content" class="site-content" role="main">
 
                     
-                        <section class="post-list" >                        
+                        <section class="post-list" >
+                            <h1 class="entry-title products_description">
+                                <span>Курси</span></h1>
                             <?php /* The loop */ ?>
                             <?php while ( have_posts() ) : the_post(); ?>
                                 <article class="post post-grid item">

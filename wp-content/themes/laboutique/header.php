@@ -149,17 +149,6 @@
                                     <li class="number_item">
                                         <a href="tell:0969130700" class="number_link">096 913 07 00</a>
                                     </li>
-                                    <li class="number_item">
-                                        <a href="tell:0630237877" class="number_link">063 023 78 77</a>
-                                    </li>
-                                </ul>
-                                <ul class="number_list number_list-right">
-                                    <li class="number_item">
-                                        <a href="tell:0977021483" class="number_link">097 702 14 83</a>
-                                    </li>
-                                    <li class="number_item">
-                                        <a href="tell:0630192969" class="number_link">063 019 29 69</a>
-                                    </li>
                                 </ul>
                             </div>
                                 <div class="<?php if (theme_option('header_bar_search_publish')){?> span8 offset2<?php } else {?>span10<?php } ?>">

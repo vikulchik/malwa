@@ -16,22 +16,23 @@ get_header(); ?>
 
 
                 <div class="container">
+                    <?php
+                    if (function_exists('woocommerce_get_template')){
+                        woocommerce_get_template( 'shop/breadcrumb.php' );
+                    }
+                    ?>
                     <div class="row">
 
                         <div class="span9">
                             
-                            <?php //echo do_shortcode(“[all_in_one_carousel settings_id='1']”); ?>
+                            <?php //echo do_shortcode(ï¿½[all_in_one_carousel settings_id='1']ï¿½); ?>
                             <?php /* The loop */ ?>
                             <?php while ( have_posts() ) : the_post(); ?>
 
-                                    <?php get_template_part( 'content', get_post_format() ); ?>                                                                                                                   
+                                    <?php get_template_part( 'content', get_post_format() ); ?>
                             <?php endwhile; ?>
-                            
-                            <?php comments_template(); ?>                                                       
-                        </div>
 
-                        <div class="span3">   
-                            <?php get_sidebar(); ?>                            
+
                         </div>
 
                     </div>

@@ -23,9 +23,12 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 	<table cellspacing="0">
 
-		<tr class="cart-subtotal">
-			<th><?php _e( 'Підсумок', 'woocommerce' ); ?></th>
+		<tr class="cart-subtotal  cart-subtotal-price">
+			<th class="th-view"><?php _e( 'Загалом:', 'woocommerce' ); ?></th>
 			<td><?php wc_cart_totals_subtotal_html(); ?></td>
+		</tr>
+		<tr class="cart-subtotal">
+			<th class="th-image"></th>
 		</tr>
 
 		<?php foreach ( WC()->cart->get_coupons( 'cart' ) as $code => $coupon ) : ?>

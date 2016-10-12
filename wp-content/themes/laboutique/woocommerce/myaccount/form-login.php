@@ -33,7 +33,7 @@
                         <div class="hgroup title">
                             <a href="#" class="products_description my-account">
                                 <span>Увійти до системи</span></a>
-                            <h3 class="form-description" style=" color:#781b34; font-size:24px;text-transform:uppercase; border-bottom:1px solid #ffbacc;font-weight: bold; padding-bottom: 22px;">увійти до особового кабінету</h3>
+                            <h3 class="form-description" style=" color:#781b34; font-size:24px;text-transform:uppercase; font-weight: bold; padding-bottom: 22px;">увійти до особового кабінету</h3>
                         </div>
 
                         <div class="box-content">

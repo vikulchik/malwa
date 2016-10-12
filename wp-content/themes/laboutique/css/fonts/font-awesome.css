@@ -31,6 +31,60 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'helveticaneuecyrbold_italic';
+  src: url('../fonts/helveticaneuecyr-bolditalic-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneuecyr-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'helveticaneuecyrlight_italic';
+  src: url('../fonts/helveticaneuecyr-lightitalic-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneuecyr-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'helveticaneuecyrmedium';
+  src: url('../fonts/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneuecyr-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'helveticaneuecyrroman';
+  src: url('../fonts/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneuecyr-roman-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'helveticaneuecyrthin';
+  src: url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'helveticaneuecyrthin_italic';
+  src: url('../fonts/helveticaneuecyr-thinitalic-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneuecyr-thinitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 /* FONT AWESOME CORE
  * -------------------------- */
 [class^="icon-"],

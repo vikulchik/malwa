@@ -14,7 +14,7 @@ global $woocommerce;
 
 ?>
 
-
+            <div class="container">
 <!-- Cart container -->
                 <section class="cart">
                     <header class="entry-header">
@@ -234,7 +234,8 @@ global $woocommerce;
 
                         </div>
                     </div>	
-                </section>         
+                </section>
+            </div>
                 <!-- End Cart container -->
 
 

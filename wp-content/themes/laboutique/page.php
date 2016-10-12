@@ -79,8 +79,6 @@ get_header(); ?>
             <div class="span12">
                 <section class="static-page">
                     <div class="row-fluid action" >
-                        <!--<a href="#" class="products_description">
-                            <span>Контакти</span></a>-->
                         <div class="span9">
                             <div class="content">
 
