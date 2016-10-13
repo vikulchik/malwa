@@ -287,7 +287,7 @@
     if (!function_exists('laboutique_my_account_sidebar_nav')){
         function laboutique_my_account_sidebar_nav($args=array()){?>
             <ul<?php if ($args['class']){?> class="<?php echo $args['class'];?>"<?php } ?>>
-                <li><a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));?>" title="<?php _e('My Account',DOMAIN);?>"><?php _e('My Account',DOMAIN);?></a></li>                                                    
+                <li><a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));?>" title="<?php _e('Увійти до особового кабінету |',DOMAIN);?>"><?php _e('Увійти до особового кабінету |',DOMAIN);?></a></li>
                 <?php
                     $myaccount_page_id=get_option('woocommerce_myaccount_page_id');
 
@@ -339,12 +339,12 @@
             ?>
                 
                 <?php if (is_user_logged_in() && get_option('woocommerce_myaccount_page_id')){?>                    
-                    <li><a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));?>" title="<?php _e('My Account',DOMAIN);?>"><?php _e('My Account',DOMAIN);?></a></li>                                                    
+                    <li><a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));?>" title="<?php _e('Увійти до особового кабінету |' ,DOMAIN);?>"><?php _e('Увійти до особового кабінету |',DOMAIN);?></a></li>
                <?php } ?>
                         
                 <?php if ($logout_url){?>
                     <?php if (!is_user_logged_in()){?>
-                        <li><a href="<?php echo $logout_url;?>" title="<?php _e('Логін / Реєстрація',DOMAIN);?>"><?php _e('Логін / Реєстрація',DOMAIN);?></a></li>
+                        <li><a href="<?php echo $logout_url;?>" title="<?php _e('Увійти до особового кабінету | Реєстрація',DOMAIN);?>"><?php _e('Увійти до особового кабінету | Реєстрація',DOMAIN);?></a></li>
                     <?php } else {?>
                         <li><a href="<?php echo $logout_url;?>" title="<?php _e('Вихід',DOMAIN);?>"><?php _e('Вихід',DOMAIN);?></a></li>
                     <?php } ?>

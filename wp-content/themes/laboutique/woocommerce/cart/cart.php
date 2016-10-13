@@ -16,7 +16,7 @@ global $woocommerce;
 
             <div class="container">
 <!-- Cart container -->
-                <section class="cart">
+                <section class="cart cart-box">
                     <header class="entry-header">
                         <a href="#" class="products_description">
                             <span><?php the_title(); ?></span></a>
@@ -40,12 +40,6 @@ global $woocommerce;
                                     
                                      <?php do_action( 'woocommerce_before_cart' ); ?>
                                     <form action="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" method="post">
-                                        
-                                        <!--<div class="box-header">
-                                            <h3>Ваш кошик</h3>
-                                            <h5><?php echo sprintf(__('У вас %s одиниць в кошику', DOMAIN),'<strong>'.$woocommerce->cart->cart_contents_count.'</strong>');?></h5>
-                                        </div>-->
-
                                         <div class="box-content">
                                             <div class="cart-items">
                                                 

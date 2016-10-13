@@ -190,4 +190,5 @@
 
     <!-- Content section -->
     <section class="main">
+    [contact-form-7 id="1006"][/vc_column][/vc_row]
         

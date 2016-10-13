@@ -22,6 +22,11 @@
 
 
     <div class="container">
+        <?php
+        if (function_exists('woocommerce_get_template')){
+            woocommerce_get_template( 'shop/breadcrumb.php' );
+        }
+        ?>
         <?php wc_print_notices();?>
 
         <div class="row">            

@@ -19,7 +19,7 @@
                     $sale=get_post_meta($product->id,'_sale_price',true);
 
                     if ($sale)
-                        echo '<span class="label label-sale">'.__("Sale").'</span>';
+                        echo '<span class="label label-sale">'.__("%").'</span>';
 
                     echo '</div>';
                 }

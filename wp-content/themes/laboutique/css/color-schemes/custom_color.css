@@ -2409,6 +2409,11 @@ textarea {
   text-decoration: none;
 }
 
+.header .logo a:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 @media (max-width: 767px) {
   .header .logo {
     width: auto;
@@ -2443,7 +2448,7 @@ textarea {
   height: 25px;
   background: inherit;
   box-sizing: border-box;
-  color: #ffbacc;
+  color: #a5a2a2;
   font-size: 14px;
 }
 .header .search .qs_s input[type="submit"] {
@@ -7223,8 +7228,8 @@ html[xmlns] .slides {
 .widget.widget_pages a:focus,
 .widget.Categories a:focus,
 .widget.Menu a:focus {
-  background-color: #ffe8ee;
-  color: #ffffff;
+  color: #b94a48;
+  transition: 0.3s;
 }
 .widget.icl_languages_selector #lang_sel_list ul ul,
 .widget.icl_languages_selector .lang_sel_list_vertical ul ul,
@@ -8262,10 +8267,12 @@ html[xmlns] .slides {
 .number_link {
   font-size: 18px!important;
   font-weight: normal!important;
+  display: block;
 }
 
 .number_link:hover {
-  text-decoration: underline;
+  transform: rotate(0deg) scale(1.015) skew(1deg) translate(16px);
+  transition: 0.3s;
 }
 
 .offset2 {
@@ -8360,6 +8367,13 @@ html[xmlns] .slides {
 
 }
 
+.products_description:hover {
+  text-decoration: none;
+  color: #c24c6b;
+  transition: 0.4s;
+  transform: translateX(20px) ;
+}
+
 .products_description:before {
   position: absolute;
   content: '';
@@ -8419,14 +8433,19 @@ html[xmlns] .slides {
 
 
 .bottom .span4 {
-  width: 380px;
+  width: 435px;
   text-align: end;
   float: right;
+  margin-bottom: 30px;
 }
 
 .bottom .span8 {
   float: left;
   width: 1045px;
+}
+
+.header ul {
+  width: 100%;
 }
 
 .info .span8 {
@@ -8500,18 +8519,13 @@ html[xmlns] .slides {
 }
 
 .tp-caption a {
-  color: #781b34!important;
+  color: #781b34;
   font-size: 70px;
 }
 
-.slider-button {
-  font-size: 22px!important;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 1px solid #781b34!important;
-  padding: 20px 30px;
-  margin-top: 110px!important;
-
+.slider-button:hover {
+  background: #781b34;
+  color: #ffffff;
 }
 
 .slider-block {
@@ -8801,23 +8815,8 @@ html[xmlns] .slides {
   position: relative;
 }
 
-/*.pull-left:after {
-  position: absolute;
-  content: '';
-  background: url("/wp-content/themes/laboutique/images/arrow-buy.png");
-  width: 23px;
-  height: 23px;
-  top: 11px;
-  left: -22px;
-}*/
-
-/* {
-  width: 100%;
-}*/
-
 .pull-right {
   width: 218px;
-  /*margin-right: 25px;*/
   position: relative;
 }
 
@@ -9222,4 +9221,218 @@ html[xmlns] .slides {
 .category .post-list {
   width: 100%;
   margin: inherit;
+}
+.sub-menu {
+  position: relative;
+}
+.sub-menu:after{
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #f3d3ca;
+  left: 29px;
+  top: 0;
+}
+
+.sub-menu:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #f3d3ca;
+  left: 29px;
+  bottom: 0;
+}
+
+/*#menu-catalog-menu-1 li ul .menu-item-has-children:before {
+  width: 0;
+  height: 0;
+}*/
+
+.price ins span {
+  color: #cc0036;
+}
+
+.price .label-sale {
+  background: #cc0036;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 8px 11px;
+}
+
+.main-cart {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  cursor: pointer;
+  padding-bottom: 40px;
+}
+
+.main-cart:hover .cart-block{
+  top: 67px;
+  transition: 0.3s;
+}
+
+.cart-block {
+  position: absolute;
+  top: -999999px;
+  left: -221px;
+  width: 320px;
+  background: #f1f1f1;
+  border-top: 3px solid #ddaea1;
+  text-align: justify;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.cart-block:before {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  top: -18px;
+  right: 63px;
+  background: #f1f1f1;
+  border-top: 3px solid #ddaea1;
+  border-right: 3px solid #ddaea1;
+  transform: rotate(314deg);
+
+}
+
+.cart-block-span-bold {
+  font-weight: bold;
+}
+
+.main-cart .cart-block-span, .main-cart .cart-block-span-bold {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+.main-cart .cart-block-span {
+  margin-left: 0;
+}
+
+.cart-block .pull-right {
+  float: none;
+  margin: auto;
+}
+
+.cart-block .pull-right:before {
+  position: absolute;
+  content: '';
+  background: url("/wp-content/themes/laboutique/images/button-arrow.png") no-repeat 0 0;
+  width: 23px;
+  height: 23px;
+  bottom: 12px;
+  right: 7px;
+}
+
+.cart-input {
+  height: 100%;
+}
+
+.cart-text {
+  position: relative;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.cart-text:hover {
+  color: #d7ab9f;
+  transition: 0.3s;
+}
+
+.cart-text:after {
+  position: absolute;
+  content: '';
+  background: url("/wp-content/themes/laboutique/images/arrow-saw.png") no-repeat 0 0;
+  width: 23px;
+  height: 23px;
+  bottom: 0;
+  right: 45px;
+}
+
+.cart-product {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.text {
+  cursor: pointer;
+}
+
+.static_page_1 .row {
+  width: 75%;
+  margin: auto;
+}
+
+.cart-box  .pull-right {
+   float: right;
+   width: 215px;
+   position: relative;
+ }
+
+.cart-box  .pull-right:after {
+  position: absolute;
+  content: '';
+  background: url("/wp-content/themes/laboutique/images/button-arrow.png") no-repeat 0 0;
+  width: 23px;
+  height: 23px;
+  top: 9px;
+  right: 5px;
+
+}
+.cart-box .box-footer.actions {
+  width: 100%;
+}
+
+.cart-box  .pull-left {
+  position: relative;
+  padding-left: 45px;
+}
+
+.cart-box  .pull-left:after {
+  position: absolute;
+  content: '';
+  background: url("/wp-content/themes/laboutique/images/arrow-buy.png") no-repeat 0 0;
+  width: 23px;
+  height: 23px;
+  top: 10px;
+  left: 26px;
+
+}
+
+.slider-block:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #f3d3ca;
+  bottom: 0;
+  left: 0;
+}
+
+.slider-block:before {
+  position: absolute;
+  content: '';
+  width: 7px;
+  height: 7px;
+  background: #f3d3ca;
+  bottom: -3px;
+  left: 0;
+  border-radius: 50%;
+}
+
+.login_register .row {
+  width: 50%;
+  margin: auto;
+}
+
+.top .row {
+  width: 27%;
+  margin: auto;
 }

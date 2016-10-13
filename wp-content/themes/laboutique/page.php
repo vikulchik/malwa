@@ -76,6 +76,8 @@ get_header(); ?>
         }
         ?>
         <div class="row">
+            <p href="#" class="products_description">
+                <span><?php the_title(); ?></span></p>
             <div class="span12">
                 <section class="static-page">
                     <div class="row-fluid action" >
@@ -107,10 +109,6 @@ get_header(); ?>
                                                             }
                                                                                                   
                                                         ?>
-                                                            <?php if (!$title_settings){?>
-                                                            <h1 class="entry-title products_description">
-                                                                <span><?php the_title(); ?></span></h1>
-                                                            <?php } ?>
                                                     </header><!-- .entry-header -->
 
                                                     <div class="entry-content">
@@ -160,3 +158,5 @@ get_header(); ?>
 
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>
+[contact-form-7 id="1006"][/vc_column][/vc_row]
+

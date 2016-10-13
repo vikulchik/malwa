@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ab371ee2-7048-4969-a0e0-dcaa26c2c0b4" name="malwa" url="http://buildyou.ftp.ukraine.com.ua">
+        <fileTransfer host="buildyou.ftp.ukraine.com.ua" port="21" rootFolder="/rubets.pro/malwa" password="df99dfe9dfffdfdadfe2dfd8df9cdf92" username="buildyou_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -194,7 +194,7 @@
                                 <?php } ?>
                             </div>
                             <div class="row-fluid">
-                                <span>Список побажань</span>
+                                <span class="text">Список побажань</span>
                                 <div class="span2">
                                     <div class="mini-wish">
                                         <a href="" class="wish">
@@ -204,7 +204,21 @@
                                 </div>
                             </div>
                             <div class="row-fluid">
-                                <span>Кошик</span>
+                                <div class="main-cart">Кошик
+                                <div class="cart-block">
+                                    <a href="<?php echo get_permalink(get_option('woocommerce_cart_page_id'))?>" title="<?php echo __('Cart',DOMAIN);?>" class="cart-product">
+                                        У кошику <span><?php if (isset($woocommerce)){?><?php echo $woocommerce->cart->cart_contents_count;?><?php } else {?>0<?php }?></span> товари
+                                    </a>
+                                    <span class="cart-block-span"><?php _e( 'Загалом:', 'woocommerce' ); ?></span>
+                                    <span class="cart-block-span-bold"><?php wc_cart_totals_subtotal_html(); ?></span>
+                                    <div class="pull-right">
+                                        <div class="cart-input">
+                                        <input type="submit" class="checkout-button button alt btn btn-primary  mm20" name="proceed" value="<?php _e( 'Опрацювати замовлення', 'woocommerce' ); ?>" />
+                                        </div>
+                                    </div>
+                                    <a href="#" class="cart-text">Переглянути кошик</a>
+                                </div>
+                                </div>
                                 <div class="span2">
                                     <?php
                                         laboutique_mini_cart();

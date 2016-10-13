@@ -217,10 +217,6 @@ text-shadow:none;
 -ms-transition:all 0.2s ease-out;
 }
 
-.tp-caption a:hover {
-color:#ffa902;
-}
-
 .tp-caption.thinheadline_dark {
 position:absolute;
 color:rgba(0,0,0,0.85);
