@@ -306,7 +306,7 @@
                 
                 <li><a href="<?php echo get_permalink(get_option('woocommerce_cart_page_id'))?>"><?php echo _e('Shopping cart',DOMAIN);?></a></li>
                 
-                <li><a href="<?php echo $logout_url;?>" title="<?php _e('Logout',DOMAIN);?>"><?php _e('Logout',DOMAIN);?></a></li>
+                <li><a href="<?php echo $logout_url;?>" title="<?php _e('Logout',DOMAIN);?>"><?php _e('Вийти',DOMAIN);?></a></li>
             </ul>
 
             
@@ -339,7 +339,7 @@
             ?>
                 
                 <?php if (is_user_logged_in() && get_option('woocommerce_myaccount_page_id')){?>                    
-                    <li><a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));?>" title="<?php _e('Увійти до особового кабінету |' ,DOMAIN);?>"><?php _e('Увійти до особового кабінету |',DOMAIN);?></a></li>
+                    <li><a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));?>" title="<?php _e('Мій кабінет |' ,DOMAIN);?>"><?php _e('Мій кабінет |',DOMAIN);?></a></li>
                <?php } ?>
                         
                 <?php if ($logout_url){?>

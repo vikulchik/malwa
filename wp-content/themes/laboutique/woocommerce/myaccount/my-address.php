@@ -65,7 +65,7 @@ $col = 1;
 					echo $formatted_address;
 			?>
 		</address>
-                <a href="<?php echo wc_get_endpoint_url( 'edit-address', $name ); ?>" class="edit btn btn-small"><?php _e( 'Edit', 'woocommerce' ); ?></a>
+                <a href="<?php echo wc_get_endpoint_url( 'edit-address', $name ); ?>" class="edit btn btn-small"><?php _e( 'Редагувати', 'woocommerce' ); ?></a>
 	</div>
 
 <?php endforeach; ?>

@@ -237,7 +237,7 @@ function vgb_get_sign_pg($opts)
     //And output the page!
    ?>
    <div id="gbSignWrap" class="page-nav">
-    <form action="<?php echo get_option("siteurl")?>/wp-comments-post.php" method="post" id="commentform" style="width: 50%">
+    <form action="<?php echo get_option("siteurl")?>/wp-comments-post.php" method="post" id="commentform" style="width: 55%">
 
 <hr>
      <?php if( $opts['disallowAnon'] && !$user->ID ) : 

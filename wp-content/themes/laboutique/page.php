@@ -76,7 +76,7 @@ get_header(); ?>
         }
         ?>
         <div class="row">
-            <p href="#" class="products_description">
+            <p  class="products_description">
                 <span><?php the_title(); ?></span></p>
             <div class="span12">
                 <section class="static-page">

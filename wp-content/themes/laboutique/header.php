@@ -112,6 +112,7 @@
   ga('send', 'pageview');
 
 </script>
+<script src="/wp-content/themes/laboutique/js/theme-customizer.js" defer></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -204,6 +205,7 @@
                                 </div>
                             </div>
                             <div class="row-fluid">
+                                <?php global $woocommerce; ?>
                                 <div class="main-cart">Кошик
                                 <div class="cart-block">
                                     <a href="<?php echo get_permalink(get_option('woocommerce_cart_page_id'))?>" title="<?php echo __('Cart',DOMAIN);?>" class="cart-product">

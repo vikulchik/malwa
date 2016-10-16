@@ -37,7 +37,7 @@ global $woocommerce;
                         </div>
                         <div class="row-fluid">
                             <div class="span12">
-                                    <label class="control-label" for="account_email"><?php _e('Email address','woocommerce');?> <span class="required">*</span></label>
+                                    <label class="control-label" for="account_email"><?php _e('E-mail','woocommerce');?> <span class="required">*</span></label>
                                     <input type="email" class="input-text" name="account_email" id="account_email" value="<?php esc_attr_e($user->user_email);?>" />
                                 
                             </div>
@@ -45,12 +45,12 @@ global $woocommerce;
                         <div class="row-fluid">
 
                             <div class="span6">
-                                    <label class="control-label" for="password_1"><?php _e('Password (leave blank to leave unchanged)','woocommerce');?></label>
+                                    <label class="control-label" for="password_1"><?php _e('Пароль','woocommerce');?></label>
                                     <input type="password" class="input-text" name="password_1" id="password_1" />
                                 
                             </div>
                             <div class="span6">
-                                    <label class="control-label" for="password_2"><?php _e('Confirm new password','woocommerce');?></label>
+                                    <label class="control-label" for="password_2"><?php _e('Повторити пароль','woocommerce');?></label>
                                     <input type="password" class="input-text" name="password_2" id="password_2" />
                                
                             </div>
@@ -59,7 +59,7 @@ global $woocommerce;
 
                     <div class="buttons">
 
-                        <input type="submit" class="button btn btn-primary btn-small" name="save_account_details" value="<?php _e( 'Save changes', 'woocommerce' ); ?>" />
+                        <input type="submit" class="button btn btn-primary btn-small" name="save_account_details" value="<?php _e( 'Зберігти', 'woocommerce' ); ?>" />
 
                         <?php wp_nonce_field( 'save_account_details' ); ?>
                         <input type="hidden" name="action" value="save_account_details" />

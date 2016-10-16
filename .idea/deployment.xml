@@ -5,7 +5,7 @@
       <paths name="malwa">
         <serverdata>
           <mappings>
-            <mapping deploy="/rubets.pro/malwa" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/malwa" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

@@ -728,6 +728,17 @@
         ));
 
         register_sidebar(array(
+            'name'=>__('Message', DOMAIN),
+            'id'=>'sidebar-4',
+            'description'=>__('Appears on home page.', DOMAIN),
+            'before_widget'=>'<aside id="%1$s" class="widget %2$s">',
+            'after_widget'=>'</aside>',
+            'before_title'=>'<h3 class="widget-title">',
+            'after_title'=>'</h3>',
+        ));
+
+
+        register_sidebar(array(
             'name'=>__('Shop sidebar', DOMAIN),
             'id'=>'sidebar-3',
             'description'=>__('Appears in product category pages.', DOMAIN),

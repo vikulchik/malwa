@@ -88,7 +88,7 @@ get_currentuserinfo();
                                 <div class="buttons">
                                     <?php wp_nonce_field('woocommerce-edit_address') ?>
                                     <button class="btn btn-primary btn-small" type="submit" name="edit_address" value="<?php echo __( 'Save Address', 'woocommerce' ); ?>">
-                                        <?php echo __( 'Save Address', 'woocommerce' ); ?>
+                                        <?php echo __( 'Зберігти', 'woocommerce' ); ?>
                                     </button>                                            
                                     
                                     <input type="hidden" name="action" value="edit_address" />

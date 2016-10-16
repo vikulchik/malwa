@@ -29,7 +29,7 @@
         ?>
         <?php wc_print_notices();?>
 
-        <div class="row">            
+        <div class="row row-login">
             <div class="span6<?php if (get_option('woocommerce_enable_myaccount_registration')!='yes') :?> offset3<?php endif;?>">
 
                 <div class="box">
