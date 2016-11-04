@@ -40,7 +40,7 @@ get_header('shop'); ?>
         'title_reply'=>'<div class="box-header"><h3 class="comment-description" style="color: #000;">Залишити коментар</h3></div>',
 
         'fields'=>array(
-            'author' => '<div class="row-fluid"><div class="span4"><div class="control-group">' . '<label for="author" class="control-label">' . __( 'Name' , DOMAIN) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+            'author' => '<div class="row-fluid"><div class="span4"><div class="control-group">' . '<label for="author" class="control-label">' . __( 'Name' , DOMAIN) . ( $req ? ' <span       class="required">*</span>' : '' ) . '</label> ' .
                 '<div class="controls"><input class="span12" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" /></div></div></div>',
             'email'  => '<div class="span4"><div class="control-group"><label for="email" class="control-label">' . __( 'Email' , DOMAIN) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
                 '<div class="controls"><input class="span12" id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30" /></div></div></div>',

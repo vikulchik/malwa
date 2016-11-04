@@ -33,7 +33,7 @@ $info_message = apply_filters('woocommerce_checkout_coupon_message', __( 'Have a
                     <div class="row-fluid">
                         <div class="span12">
                                 <div class="control-group">
-                                    <label for="coupon_code"><?php _e( 'Coupon code', 'woocommerce' ); ?><span class="required">*</span></label>
+                                    <label for="coupon_code"><?php _e( 'Coupon code', 'woocommerce' ); ?><span   class="required">*</span></label>
                                     <input type="text" name="coupon_code" class="input-text span12" placeholder="<?php _e( 'Coupon code', 'woocommerce' ); ?>" id="coupon_code" value="" />
                                 </div>
                         </div>

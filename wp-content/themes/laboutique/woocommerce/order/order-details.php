@@ -14,13 +14,10 @@ global $woocommerce;
 $order = new WC_Order( $order_id );
 ?>
 
-<header>
-	<h4><?php _e( 'Customer details', 'woocommerce' ); ?></h4>
-</header>
 <table class="customer_details styled-table">
 <?php
-	if ($order->billing_email) echo '<tr><th>'.__( 'Email:', 'woocommerce' ).'</th><td>'.$order->billing_email.'</td></tr>';
-	if ($order->billing_phone) echo '<tr><th>'.__( 'Telephone:', 'woocommerce' ).'</th><td>'.$order->billing_phone.'</td></tr>';
+	if ($order->billing_email) echo '<tr><th>'.__( 'e-mail:', 'woocommerce' ).'</th><td>'.$order->billing_email.'</td></tr>';
+	if ($order->billing_phone) echo '<tr><th>'.__( 'Телефон:', 'woocommerce' ).'</th><td>'.$order->billing_phone.'</td></tr>';
 ?>
 </table>
 
@@ -63,22 +60,18 @@ $order = new WC_Order( $order_id );
 <?php endif; ?>
 
 
-<h4><?php _e( 'Order Details', 'woocommerce' ); ?></h4>
+<h4 class="details-order"><?php _e( 'Деталі замовлення', 'woocommerce' ); ?></h4>
 <table class="shop_table order_details styled-table">
 	<thead>
 		<tr>
 			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
-			<th class="product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
+			<th class="product-total"><?php _e( 'Загальна сума', 'woocommerce' ); ?></th>
 		</tr>
 	</thead>
 	<tfoot>
 	<?php
 		if ( $totals = $order->get_order_item_totals() ) foreach ( $totals as $total ) :
 			?>
-			<tr>
-				<th scope="row"><?php echo $total['label']; ?></th>
-				<td><?php echo $total['value']; ?></td>
-			</tr>
 			<?php
 		endforeach;
 	?>

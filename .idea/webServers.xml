@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ab371ee2-7048-4969-a0e0-dcaa26c2c0b4" name="malwa" url="http://buildyou.ftp.ukraine.com.ua">
-        <fileTransfer host="buildyou.ftp.ukraine.com.ua" port="21" rootFolder="/rubets.pro" password="df99dfe9dfffdfdadfe2dfd8df9cdf92" username="buildyou_ftp">
+      <webServer id="7cf23b2a-e03c-4c54-8457-f12abf80d28f" name="malva" url="http://malwa.ftp.ukraine.com.ua">
+        <fileTransfer host="malwa.ftp.ukraine.com.ua" port="21" rootFolder="/malwa.com.ua/www" password="dfe4dfd8dfd3dff2dffbdfc4dfc6dfe7" username="malwa_ftp">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>

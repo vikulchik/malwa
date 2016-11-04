@@ -18,7 +18,7 @@ if (DEBUG_INFO) {
 	echo "\n<!-- FILE: /page-home.php ================================================================= -->\n";
 }
 get_header(); ?>
-<?php putRevSlider("malva","homepage") ?>
+
 <div class="products">
     <div class="products_block">
         <div class="products_item" >
@@ -72,6 +72,42 @@ get_header(); ?>
 <div class="slider-mark-block">
     <p class="mark_description">
         <span>Торгівельні марки</span></p>
-    <?php putRevSlider("slider-mark","homepage") ?>
+    <ul class="mark-list">
+        <li class="mark-item">
+            <a href="#">
+                <img src="wp-content/themes/laboutique/images/kodi.png" alt="">
+            </a>
+        </li>
+        <li class="mark-item">
+            <a href="#">
+                <img src="wp-content/themes/laboutique/images/irisc.png" alt="">
+            </a>
+        </li>
+        <li class="mark-item">
+            <a href="#">
+                <img src="wp-content/themes/laboutique/images/nails.png" alt="">
+            </a>
+        </li>
+        <li class="mark-item">
+            <a href="#">
+                <img src="wp-content/themes/laboutique/images/blaze.png" alt="">
+            </a>
+        </li>
+        <li class="mark-item">
+            <a href="#">
+                <img src="wp-content/themes/laboutique/images/gga.png" alt="">
+            </a>
+        </li>
+        <li class="mark-item">
+            <a href="#">
+                <img src="wp-content/themes/laboutique/images/kodi.png" alt="">
+            </a>
+        </li>
+        <li class="mark-item">
+            <a href="#">
+                <img src="wp-content/themes/laboutique/images/irisc.png" alt="">
+            </a>
+        </li>
+    </ul>
 </div>
 <?php get_footer(); ?>

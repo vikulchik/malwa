@@ -940,7 +940,7 @@ if ( ! function_exists( 'woocommerce_default_product_tabs' ) ) {
 		// Additional information tab - shows attributes
 		if ( $product && ( $product->has_attributes() || ( $product->enable_dimensions_display() && ( $product->has_dimensions() || $product->has_weight() ) ) ) ) {
 			$tabs['additional_information'] = array(
-				'title'    => __( 'Additional Information', 'woocommerce' ),
+				'title'    => __( 'Додаткова інформація', 'woocommerce' ),
 				'priority' => 20,
 				'callback' => 'woocommerce_product_additional_information_tab'
 			);
@@ -1248,7 +1248,7 @@ if ( ! function_exists( 'woocommerce_checkout_payment' ) ) {
 		wc_get_template( 'checkout/payment.php', array(
 			'checkout'           => WC()->checkout(),
 			'available_gateways' => WC()->payment_gateways()->get_available_payment_gateways(),
-			'order_button_text'  => apply_filters( 'woocommerce_order_button_text', __( 'Place order', 'woocommerce' ) )
+			'order_button_text'  => apply_filters( 'woocommerce_order_button_text', __( 'Розмістити замовлення', 'woocommerce' ) )
 		) );
 	}
 }

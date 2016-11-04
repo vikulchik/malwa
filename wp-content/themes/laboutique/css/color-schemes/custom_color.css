@@ -2639,8 +2639,8 @@ textarea {
     position: relative;
     z-index: 10;
     background-color: #000 !important;
-    height: 32px;
-    font-size: 12px;
+    height: 50px;
+    font-size: 15px;
     line-height: 32px;
     color: #f3d3ca;
 }
@@ -2660,6 +2660,10 @@ textarea {
 .header .top a:hover {
     text-decoration: none;
     color: #c7c8c8;
+}
+
+.span6.hidden-phone {
+    margin-top: 8px;
 }
 
 .header .top #lang_sel_list.lang_sel_list_vertical,
@@ -2735,8 +2739,8 @@ textarea {
 }
 
 .header .bottom {
-    background-color: #f3d3ca;
-    padding: 20px 0;
+    background-color: #f7e7e8;
+    padding: 20px 0 10px 0;
     /*zoom: 1;*/
 }
 
@@ -2789,7 +2793,7 @@ textarea {
 
 .header .search {
     height: 40px;
-    background: rgba(249, 222, 214, 0.6);
+    background: #f3dcde;
     width: 100%;
     box-sizing: border-box;
     padding: 5px 0;
@@ -2930,9 +2934,9 @@ textarea {
     float: right;
     height: 43px;
     width: 43px;
-    background: url('../../images/cart.png') no-repeat center center;
+    background: url('/wp-content/themes/laboutique/images/cart-2.png') no-repeat center center;
     position: relative;
-    background-color: #fff;
+    background-color: #ebc4c6;
 }
 
 .row-fluid {
@@ -2947,9 +2951,9 @@ textarea {
     float: right;
     height: 43px;
     width: 43px;
-    background: url('../../images/wish.png') no-repeat center center;
+    background: url('/wp-content/themes/laboutique/images/hurt-2.png') no-repeat center center;
     position: relative;
-    background-color: #fff;
+    background-color: #ebc4c6;
 }
 
 .mini-cart a > span, .mini-wish a > span {
@@ -2976,7 +2980,7 @@ textarea {
 | NAVIGATION
 ---*/
 nav.navigation {
-    background-color: #f3d3ca !important;
+    background-color: #ebc4c6 !important;
     position: relative;
     z-index: 240;
     -webkit-box-shadow: 0 1px 2px rgba(71, 73, 72, 0.09999999999999998);
@@ -3380,9 +3384,9 @@ nav.navigation .row {
 .main-menu .megamenu-sub-menu input[type="search"],
 .main-menu .megamenu-sub-menu input[type="tel"],
 .main-menu .megamenu-sub-menu input[type="time"],
-.main-menu .megamenu-sub-menu input[type="url"],
-.main-menu .megamenu-sub-menu textarea,
-.main-menu .megamenu-sub-menu select {
+-menu .megamenu-sub-menu input[type="url"],
+-menu .megamenu-sub-menu textarea,
+-menu .megamenu-sub-menu select {
     min-height: 30px;
     width: 100%;
 }
@@ -3394,7 +3398,7 @@ nav.navigation .row {
 .megamenu_container {
     height: auto;
     margin: auto;
-    width: 100%;
+    width: 90%;
 }
 
 .main-menu-button {
@@ -4179,10 +4183,10 @@ nav.navigation .row {
 
 .product-list li {
     list-style: none;
-    width: 270px;
-    float: left;
+    width: 275px;
     margin-left: 30px;
-    margin-bottom: 30px;
+    vertical-align: top;
+    margin-bottom: 10px;
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -4363,7 +4367,7 @@ nav.navigation .row {
     width: 26px;
     height: 22px;
     top: 0;
-    right: -45px;
+    right: -26%;
 }
 
 .product-list a .title .prices .price .from {
@@ -9431,13 +9435,14 @@ html[xmlns] .slides {
     position: absolute;
     content: '';
     display: block;
-    background: url("/wp-content/themes/laboutique/images/number.png");
+    background: url("/wp-content/themes/laboutique/images/tell-2.png") no-repeat center center;
     top: -20px;
     left: 0;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #ebc4c6;
+    border: 1px solid #352e2e;
 }
 
 .number_list-left {
@@ -9500,18 +9505,20 @@ html[xmlns] .slides {
 }
 
 .products {
-    width: 95%;
+    width: 90%;
     margin: 60px auto auto auto;
 }
 
 .products_block {
     display: flex;
-    margin-bottom: 30px;
+    justify-content: center;
+    margin: auto auto 30px auto;
+    width: 96%;
 }
 
 .products_item {
-    width: 615px;
-    min-height: 355px;
+    width: 455px;
+    height: 335px;
     margin-left: 25px;
 }
 
@@ -9519,16 +9526,18 @@ html[xmlns] .slides {
     position: relative;
 }
 
-.products-image:after {
+/*.products-image:after {
     position: absolute;
     content: '';
     display: block;
-    background: #781b34;
-    width: 2px;
-    height: 87%;
-    top: 66px;
-    right: 50px;
-}
+    top: 43px;
+    right: 23px;
+    background-image:  url("/wp-content/themes/laboutique/images/line.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 131px;
+    height: 255px;
+}/*
 
 .products-image:before {
     position: absolute;
@@ -9540,14 +9549,14 @@ html[xmlns] .slides {
     border-radius: 50%;
     top: 60px;
     right: 47px;
-}
+}*/
 
 .products_item:first-child {
     margin-left: 0;
 }
 
 .products_description {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     font-family: 'Cormorant Infant', serif;
     color: #781b34;
@@ -9562,8 +9571,6 @@ html[xmlns] .slides {
 .products_description:hover {
     text-decoration: none;
     color: #c24c6b;
-    transition: 0.4s;
-    transform: translateX(20px);
 }
 
 .products_description:before {
@@ -9573,29 +9580,29 @@ html[xmlns] .slides {
     width: 79px;
     height: 79px;
     background: url("/wp-content/themes/laboutique/images/product.png");
-    top: 0;
+    top: -19px;
     left: 45px;
 }
 
 .products_description span {
     position: relative;
     z-index: 10;
-    padding-right: 120px;
+    padding-right: 100px;
     display: block;
     font-family: 'helveticaneuecyrroman', sans-serif;
     font-weight: 300;
 }
 
-.products .products_description span:after {
+/*.products .products_description span:after {
     position: absolute;
     content: '';
     display: block;
     width: 20%;
     right: 32px;
-    top: 13px;
+    top: 37%;
     height: 2px;
     background: #781b34;
-}
+}*/
 
 .span6 .hidden-phone {
     width: 100% !important;
@@ -9623,7 +9630,7 @@ html[xmlns] .slides {
 }
 
 .bottom .span4 {
-    width: 435px;
+    width: 430px;
     text-align: end;
     float: right;
     margin-bottom: 30px;
@@ -9647,7 +9654,7 @@ html[xmlns] .slides {
 }
 
 #menu-catalog-menu-1 li a {
-    font-size: 20px;
+    font-size: 16px;
     color: #682f3e;
     text-transform: uppercase;
     font-family: 'helveticaneuecyrroman', sans-serif;
@@ -9936,12 +9943,14 @@ html[xmlns] .slides {
 
 .btn-primary {
     border-radius: 25px;
-    background: #f3d3ca;
+    background: #ebc4c6;
     font-weight: normal;
     text-transform: capitalize;
     display: block;
     text-align: center;
     width: 405px;
+    color: #682f3e;
+    box-shadow: 7px 7px 11px -4px rgba(104,47,62,1);
 }
 
 .pull-right {
@@ -9983,13 +9992,14 @@ html[xmlns] .slides {
 }
 
 .call-me {
-    background: #f3d3ca;
+    background: #ebc4c6;
     border-radius: 35px;
-    color: #ffffff;
+    color: #682f3e;
     text-decoration: none !important;
     padding: 15px 20px;
     width: 160px;
     box-sizing: border-box;
+    box-shadow: 7px 7px 11px -4px rgba(104,47,62,1);
 }
 
 .primary {
@@ -10125,14 +10135,15 @@ html[xmlns] .slides {
 }
 
 .single_add_to_cart_button.button.alt {
-    background: #f3d3ca !important;
+    background: linear-gradient(to bottom, #efd1d3, #bd979e)!important;
     border-radius: 25px !important;
     font-weight: normal !important;
     text-transform: inherit !important;
-    padding-right: 55px !important;
+    padding-right: 35px !important;
     position: relative;
     float: right !important;
     color: #6a3140 !important;
+    box-shadow: 7px 7px 11px -4px rgba(104,47,62,1);
 }
 
 .single_add_to_cart_button.button.alt:before {
@@ -10142,10 +10153,10 @@ html[xmlns] .slides {
 .single_add_to_cart_button.button.alt:after {
     position: absolute;
     content: '';
-    background: url("/wp-content/themes/laboutique/images/cart-white.png") no-repeat 0 0;
-    width: 27px;
-    height: 24px;
-    top: 10px;
+    background: url("/wp-content/themes/laboutique/images/cart-mini.png") no-repeat 0 0;
+    width: 28px;
+    height: 23px;
+    top: 6px;
     right: 16px;
 }
 
@@ -10208,18 +10219,13 @@ html[xmlns] .slides {
 }
 
 .call-button {
-    background: #f3d3ca;
+    background: #ebc4c6;
     border-radius: 25px;
     text-decoration: none;
     color: #713947;
     font-size: 14px;
     padding: 12px 16px;
-}
-
-.call-button:hover {
-    background: #713947;
-    color: #fff;
-    text-decoration: none;
+    box-shadow: 7px 7px 11px -4px rgba(104,47,62,1);
 }
 
 .btn.btn-primary.btn-small {
@@ -10233,8 +10239,8 @@ html[xmlns] .slides {
 
 .product-cart {
     border: 0;
-    width: 120px;
-    padding: 12px 55px 12px 15px;
+    width: 125px;
+    padding: 10px 45px 10px 10px;
 }
 
 .product-cart:after {
@@ -10251,6 +10257,11 @@ html[xmlns] .slides {
 
 .product-name.text-left {
     color: #682f3e;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
 }
 
 .main-menu > li > a:hover {
@@ -10377,9 +10388,10 @@ html[xmlns] .slides {
 }
 
 .box .box-footer a {
-    background: #f3d3ca;
+    background: #ebc4c6;
     color: #781b34;
     text-transform: inherit;
+    box-shadow: 7px 7px 11px -4px rgba(104,47,62,1);
 }
 
 .blog_post .row {
@@ -10387,10 +10399,6 @@ html[xmlns] .slides {
     margin: auto;
 }
 
-/*.post.post-grid.item {
-  width: 340px;
-  float: right;
-}*/
 
 .row-fluid.action {
     width: 100%;
@@ -10494,11 +10502,6 @@ html[xmlns] .slides {
     left: 29px;
     bottom: 0;
 }
-
-/*#menu-catalog-menu-1 li ul .menu-item-has-children:before {
-  width: 0;
-  height: 0;
-}*/
 
 .price ins span {
     color: #cc0036;
@@ -10629,7 +10632,7 @@ html[xmlns] .slides {
 .cart-box .pull-right:after {
     position: absolute;
     content: '';
-    background: url("/wp-content/themes/laboutique/images/button-arrow.png") no-repeat 0 0;
+    background: url("/wp-content/themes/laboutique/images/red-circle.png") no-repeat 0 0;
     width: 23px;
     height: 23px;
     top: 9px;
@@ -10705,7 +10708,7 @@ html[xmlns] .slides {
 
 .col-1 input, .col-2 .input-text {
     border-radius: 25px;
-    width: 410px !important;
+    width: 390px !important;
     float: right;
     display: block;
 }
@@ -10724,13 +10727,14 @@ html[xmlns] .slides {
 }
 
 .form-row.place-order input {
-    background: #f3d3ca;
+    background: #ebc4c6;
     border: 0;
     border-radius: 25px;
     color: #781b34;
     padding: 12px 15px;
     margin: auto;
     display: block;
+    box-shadow: 7px 7px 11px -4px rgba(104,47,62,1);
     width: 120px;
 }
 
@@ -10876,4 +10880,252 @@ html[xmlns] .slides {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.main {
+    z-index: 0;
+}
+
+.mark-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 3%;
+    vertical-align: top;
+}
+
+.mark-item:first-child {
+    margin-left: 0;
+}
+
+.mark-item a {
+    display: block;
+}
+
+.mark-list {
+    width: 85%;
+    margin: auto;
+}
+
+.category .alert.alert-success {
+    margin: auto auto 20px auto;
+    width: 83%;
+    background: #f3d3ca;
+    border: inherit;
+    color: #000000;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.alert.alert-success .woocommerce-message .button.wc-forward {
+    background: #ffffff;
+    color: #000000!important;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.category  {
+    margin-top: 20px;
+}
+.checkout .box-header {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f3d3ca;
+    padding-left: 0;
+    position: relative;
+}
+
+.checkout .box-header :after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #f3d3ca;
+    border-radius: 50%;
+    bottom: -3px;
+    right: 0;
+}
+
+.shop_table.woocommerce-checkout-review-order-table  tbody {
+    border-bottom: 1px solid #ccc;
+}
+.shop_table.woocommerce-checkout-review-order-table {
+    width: 60%;
+}
+
+.payment_method_bacs input,
+.payment_method_bacs label,
+.payment_method_cod input,
+.payment_method_cod label  {
+    display: inline-block;
+}
+.payment_methods.methods input {
+    margin: 0 10px 0 0 ;
+}
+
+.payment_methods.methods label {
+    text-transform: lowercase;
+}
+
+.payment_methods.methods li:first-child {
+    margin-left: 0;
+}
+
+.order-total {
+    margin-top: 10px;
+}
+
+#payment .button.alt {
+    width: 55%;
+}
+
+.thankYou {
+    width: 72%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thankYou-view {
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+    border: 3px solid #e2e2e2;
+    position: relative;
+    margin: auto auto 70px auto;
+}
+
+.thankYou span{
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.form-row.place-order {
+    width: 60%;
+}
+
+.site-content  .box-header {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f3d3ca;
+    padding-left: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #682f3e;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+.site-content  .box-header:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #f3d3ca;
+    border-radius: 50%;
+    bottom: -3px;
+    right: 0;
+}
+
+
+.site-content .styled-table  {
+    width: 50%;
+}
+
+.bank, .details-order {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f3d3ca;
+    padding-left: 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #682f3e;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.bank:after, .details-order:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #f3d3ca;
+    border-radius: 50%;
+    bottom: -3px;
+    right: 0;
+}
+
+.site-content h3 {
+    font-size: 16px;
+}
+
+.col2-set.addresses.row-fluid, .site-content .address {
+    display: none;
+}
+
+label[for="billing_post"] {
+    width: 25%;
+}
+
+.cart-input {
+    width: 235px;
+    position: relative;
+    background: #ebc4c6;
+    border-radius: 25px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 11px -4px rgba(104,47,62,1);
+}
+
+.cart-input:hover {
+    background: #682f3e;
+}
+
+.checkout_description {
+    margin: 40px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.hit {
+    margin: 30px auto auto auto;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #682f3e;
+    border-bottom: 1px solid #F3D3CA;
+    position: relative;
+}
+
+.hit:after {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #F3D3CA;
+    bottom: -3px;
+    right: 0;
+}
+
+.top-text {
+    float: left;
+    margin-top: 8px!important;
+}
+
+.top-text span {
+    font-weight: bold;
+}
+
+.post-list.product-list {
+    margin-bottom: 55px;
+}
+
+.product-info .single_add_to_cart_button.button.alt {
+    padding-right: 55px!important;
 }

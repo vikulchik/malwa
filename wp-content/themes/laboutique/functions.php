@@ -222,8 +222,8 @@
             wp_enqueue_script('comment-reply');
 
         // Adds Masonry to handle vertical alignment of footer widgets.
-        if (is_active_sidebar('sidebar-1'))
-            wp_enqueue_script('jquery-masonry');
+        /*if (is_active_sidebar('sidebar-1'))
+            wp_enqueue_script('jquery-masonry');*/
 
         // Loads JavaScript file with functionality specific to La Boutique.
         //wp_enqueue_script( 'laboutique-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '2013-07-18', true );
@@ -980,7 +980,7 @@
                     <div class="nav-links">
 
                 <?php if (get_next_posts_link()) :?>
-                            <div class="nav-previous"><?php next_posts_link(__('Load more', DOMAIN));?></div>
+                            <div class="nav-previous"><?php next_posts_link(__('завантажити більше', DOMAIN));?></div>
                 <?php endif;?>
 
                 <?php if (get_previous_posts_link()) :?>

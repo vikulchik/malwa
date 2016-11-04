@@ -124,6 +124,7 @@
             <!-- Top bar -->
             <div class="top">
                 <div class="container">
+                    <p class="top-text"> Вся продукція <span>100% оригінальна</span></p>
                     <div class="row">
                         <div class="span6 hidden-phone">
                             <p>
@@ -173,7 +174,7 @@
                                 </div>
                         </div>
                             <div class="logo">
-                                <a href="<?php echo home_url();?>" title="<?=esc_attr(theme_option('header_bar_logo_title'))?>">
+                                <a href="http://www.malwa.com.ua/" title="<?=esc_attr(theme_option('header_bar_logo_title'))?>">
                                     <?php if (theme_option('header_bar_logo_retina') || theme_option('header_bar_logo')){?>
                                         <img style="<?php if (theme_option('header_bar_logo_margin')){?>margin-top: <?php echo theme_option('header_bar_logo_margin')?>px;<?php } ?> <?php if (theme_option('header_bar_logo_width')){?>width: <?php echo theme_option('header_bar_logo_width')?>px;<?php } ?> " src="<?php if (theme_option('header_bar_logo_retina')){?><?php $url=theme_option('header_bar_logo_retina'); ?><?php } else {?><?php $url=theme_option('header_bar_logo')?><?php } ?><?php echo $url['url'];?>" alt="<?php echo esc_attr(theme_option('header_bar_logo_alt'))?>" />
                                     <?php } ?>
@@ -213,12 +214,8 @@
                                     </a>
                                     <span class="cart-block-span"><?php _e( 'Загалом:', 'woocommerce' ); ?></span>
                                     <span class="cart-block-span-bold"><?php wc_cart_totals_subtotal_html(); ?></span>
-                                    <div class="pull-right">
-                                        <div class="cart-input">
-                                        <input type="submit" class="checkout-button button alt btn btn-primary  mm20" name="proceed" value="<?php _e( 'Опрацювати замовлення', 'woocommerce' ); ?>" />
-                                        </div>
-                                    </div>
-                                    <a href="#" class="cart-text">Переглянути кошик</a>
+                                        <a href="http://www.malwa.com.ua/checkout/" class="checkout-button button alt btn  cart-input" >Опрацювати замовлення</a>
+                                    <a href="http://www.malwa.com.ua/cart/" class="cart-text">Переглянути кошик</a>
                                 </div>
                                 </div>
                                 <div class="span2">

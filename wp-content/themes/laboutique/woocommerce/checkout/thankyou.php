@@ -21,7 +21,7 @@ global $woocommerce;
             <div class="span12">
                 <section class="static-page">
                     <div class="row-fluid action">
-                        <div class="span3 visible-desktop hidden-phone hidden-table">
+                       <!-- <div class="span3 visible-desktop hidden-phone hidden-table">
                             <?php if (is_user_logged_in()){?>
                                 <? laboutique_my_account_sidebar_nav(array(
                                     'class'=>'nav nav-tabs nav-stacked',
@@ -34,7 +34,7 @@ global $woocommerce;
                                
                            ));?>
                             <?php } ?>
-                        </div>
+                        </div>-->
 
                         <div class="span9">
                             <div class="content">
@@ -63,25 +63,29 @@ global $woocommerce;
                                                     </p>
 
                                             <?php else : ?>
-
-                                                    <p><?php _e( 'Thank you. Your order has been received.', 'woocommerce' ); ?></p>
+                                                <div class="thankYou-view">
+                                                    <p class="thankYou"><span>Дякуємо за замовлення!</span><?php _e( 'Ваше замовлення було збережено та знаходиться в обробці', 'woocommerce' ); ?></p>
+                                                </div>
                                                     
                                                     <table class="styled-table ">
+                                                        <div class="box-header">
+                                                            <h3>Інформація про замовлення</h3>
+                                                        </div>
                                                         <tr class="order">
-                                                            <th><?php _e( 'Order:', 'woocommerce' ); ?></th>
+                                                            <th><?php _e( '№ замовлення:', 'woocommerce' ); ?></th>
                                                             <td><?php echo $order->get_order_number(); ?></td>
                                                         </tr>
                                                         <tr class="date">
-                                                            <th><?php _e( 'Date:', 'woocommerce' ); ?></th>
+                                                            <th><?php _e( 'Дата:', 'woocommerce' ); ?></th>
                                                             <td><?php echo date_i18n( get_option( 'date_format' ), strtotime( $order->order_date ) ); ?></td>
                                                         </tr>
                                                         <tr class="total">
-                                                            <th><?php _e( 'Total:', 'woocommerce' ); ?></th>
+                                                            <th><?php _e( 'Загальна сума', 'woocommerce' ); ?></th>
                                                             <td><?php echo $order->get_formatted_order_total(); ?></td>
                                                         </tr>
                                                         <?php if ( $order->payment_method_title ) : ?>
                                                         <tr class="method">
-                                                            <th><?php _e( 'Payment method:', 'woocommerce' ); ?></th>
+                                                            <th><?php _e( 'Спосіб оплати:', 'woocommerce' ); ?></th>
                                                             <td><?php echo $order->payment_method_title; ?></td>
                                                         </tr>
                                                         <?php endif; ?>

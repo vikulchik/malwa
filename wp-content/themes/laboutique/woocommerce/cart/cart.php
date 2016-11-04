@@ -21,23 +21,14 @@ global $woocommerce;
                         <a href="#" class="products_description">
                             <span><?php the_title(); ?></span></a>
                     </header>
-
-
-
                     <div class="container">
-                        
                         <?php
                             wc_print_notices();
                         ?>
                         <div class="row">
-
                             <div class="span9">
-                                
                                 <!-- Cart -->
                                 <div class="box">
-                                    
-                                    
-                                    
                                      <?php do_action( 'woocommerce_before_cart' ); ?>
                                     <form action="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" method="post">
                                         <div class="box-content">

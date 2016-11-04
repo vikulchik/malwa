@@ -31,7 +31,7 @@ if (DEBUG_INFO) {
         'fields'=>array(
                 'author' => '<div class="row-fluid"><div class="span4"><div class="control-group">' . '<label for="author" class="control-label">' . __( 'Name' , DOMAIN) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
                             '<div class="controls"><input class="span12" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" /></div></div></div>',
-                'email'  => '<div class="span4"><div class="control-group"><label for="email" class="control-label">' . __( 'Email' , DOMAIN) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+                'email'  => '<div class="span4"><div class="control-group"><label for="email" class="control-label">' . __( 'Email' , DOMAIN) . ( $req ?  : '' ) . '</label> ' .
                             '<div class="controls"><input class="span12" id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30" /></div></div></div>',
                 'url'    => '<div class="span4"><div class="control-group"><label for="url" class="control-label">' . __( 'Website' , DOMAIN) . '</label> ' .
                             '<div class="controls"><input class="span12" id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></div></div></div></div>',

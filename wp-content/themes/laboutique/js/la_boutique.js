@@ -344,7 +344,7 @@
 				masonry:{
 					columnWidth:1
 			    }
-			}).isotope('insert',$('#isotope_content_dummy .item'),init_nav);
+			}).isotope('insert',$('#isotope_content_dummy .item'));
 		});
 
 	}
@@ -418,7 +418,7 @@
 
 	static_page_height();
 
-	function init_nav(){
+	/*function init_nav(){
 		if (laboutiqueAjax.navigation_sticky){
 
 			$('.navigation.visible-desktop').trigger("sticky_kit:detach").stick_in_parent({
@@ -426,7 +426,7 @@
 				parent:'.wrapper'
 			});
 		}
-	}
+	}*/
 
 
 
@@ -434,7 +434,7 @@
 		"use strict";
 
 
-		init_nav();
+		//init_nav();
 
 
 		$('html').removeClass('no-js').addClass('js');
@@ -731,12 +731,12 @@
 								masonry:{
 									columnWidth: 100
 								}
-							}).isotope('insert',html,init_nav);
+							}).isotope('insert',html);
 
 
 						} else {
 							$('.post-list').append(html);
-							init_nav();
+							//init_nav();
 
 						}
 

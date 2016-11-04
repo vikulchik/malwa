@@ -165,8 +165,8 @@ class WC_Widget_Price_Filter extends WC_Widget {
 			<div class="price_slider_wrapper">
 				<div class="price_slider" style="display:none;"></div>
 				<div class="price_slider_amount">
-					<input type="text" id="min_price" name="min_price" value="' . esc_attr( $min_price ) . '" data-min="' . esc_attr( apply_filters( 'woocommerce_price_filter_widget_amount', $min ) ) . '" placeholder="' . __('Min price', 'woocommerce' ) . '" />
-					<input type="text" id="max_price" name="max_price" value="' . esc_attr( $max_price ) . '" data-max="' . esc_attr( apply_filters( 'woocommerce_price_filter_widget_amount', $max ) ) . '" placeholder="' . __( 'Max price', 'woocommerce' ) . '" />
+					<input type="text" id="min_price" name="min_price" value="' . esc_attr( $min_price ) . '" data-min="' . esc_attr( apply_filters( 'woocommerce_price_filter_widget_amount', $min ) ) . '" placeholder="' . __('Мін. ціна', 'woocommerce' ) . '" />
+					<input type="text" id="max_price" name="max_price" value="' . esc_attr( $max_price ) . '" data-max="' . esc_attr( apply_filters( 'woocommerce_price_filter_widget_amount', $max ) ) . '" placeholder="' . __( 'Макс. ціна', 'woocommerce' ) . '" />
 					<button type="submit" class="button">' . __( 'Filter', 'woocommerce' ) . '</button>
 					<div class="price_label" style="display:none;">
 						' . __( 'Price:', 'woocommerce' ) . ' <span class="from"></span> &mdash; <span class="to"></span>
@@ -175,8 +175,12 @@ class WC_Widget_Price_Filter extends WC_Widget {
 					<div class="clear"></div>
 				</div>
 			</div>
-		</form>';
+		</form>
+		<h3 class="hit">Хіти продаж</h3>';
+
+
 
 		$this->widget_end( $args );
 	}
 }
+

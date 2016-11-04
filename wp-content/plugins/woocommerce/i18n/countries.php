@@ -243,7 +243,7 @@ return array(
 	'TC' => __( 'Turks and Caicos Islands', 'woocommerce' ),
 	'TV' => __( 'Tuvalu', 'woocommerce' ),
 	'UG' => __( 'Uganda', 'woocommerce' ),
-	'UA' => __( 'Ukraine', 'woocommerce' ),
+	'UA' => __( 'Україна', 'woocommerce' ),
 	'AE' => __( 'United Arab Emirates', 'woocommerce' ),
 	'GB' => __( 'United Kingdom (UK)', 'woocommerce' ),
 	'US' => __( 'United States (US)', 'woocommerce' ),

@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<tr>
 				<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
 				<th class="product-quantity"><?php _e( 'Qty', 'woocommerce' ); ?></th>
-				<th class="product-total"><?php _e( 'Totals', 'woocommerce' ); ?></th>
+				<th class="product-total"><?php _e( 'Загальна сума', 'woocommerce' ); ?></th>
 			</tr>
 		</thead>
 		<tbody>

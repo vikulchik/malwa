@@ -47,6 +47,9 @@ get_header('shop'); ?>
                 <?php } ?>
 
                 <div class="span9">
+                    <?php
+                    wc_print_notices();
+                    ?>
 
                    <div id="primary" class="content-area">
                         <div id="content" class="site-content" role="main">
